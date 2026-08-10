@@ -1,12 +1,12 @@
 {
   "title": "Kuhesabu Kitabu cha Mwanafunzi",
-  "bundleVersion": "1",
+  "bundleVersion": "2",
   "languages": {
     "available": [
       "sw",
       "sw-TZ"
     ],
-    "default": "sw"
+    "default": "sw-TZ"
   },
   "features": {
     "signLanguage": false,
