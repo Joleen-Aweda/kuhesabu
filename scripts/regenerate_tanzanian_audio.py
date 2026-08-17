@@ -72,7 +72,7 @@ def spoken_swahili(text: str) -> str:
     return spoken
 
 
-def load_jobs() -> dict[str, list[Path]]:
+def load_jobs(requested_ids: set[str] | None = None) -> dict[str, list[Path]]:
     """Group destinations by spoken phrase so identical clips are generated once."""
     grouped: dict[str, list[Path]] = defaultdict(list)
     for lang in LANGS:
@@ -80,6 +80,8 @@ def load_jobs() -> dict[str, list[Path]]:
         texts = json.loads((base / "texts.json").read_text(encoding="utf-8"))
         audios = json.loads((base / "audios.json").read_text(encoding="utf-8"))
         for text_id, filename in audios.items():
+            if requested_ids is not None and text_id not in requested_ids:
+                continue
             text = texts.get(text_id, "")
             if isinstance(text, str) and text.strip():
                 grouped[spoken_swahili(text)].append(base / "audio" / filename)
@@ -92,9 +94,10 @@ async def main() -> None:
     parser.add_argument("--rate", default="-8%")
     parser.add_argument("--concurrency", type=int, default=20)
     parser.add_argument("--limit", type=int, help="Generate only this many unique phrases (testing)")
+    parser.add_argument("--ids", nargs="+", help="Generate only the listed text IDs")
     args = parser.parse_args()
 
-    jobs = load_jobs()
+    jobs = load_jobs(set(args.ids) if args.ids else None)
     items = sorted(jobs.items())
     if args.limit:
         items = items[: args.limit]
