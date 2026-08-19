@@ -1,6 +1,12 @@
 (function enableImageDescriptions() {
   let activeAudio = null;
+  let activeGroup = null;
   const audioMaps = new Map();
+
+  function clearActiveGroup() {
+    if (activeGroup) activeGroup.classList.remove("image-description-active");
+    activeGroup = null;
+  }
 
   try {
     window.localStorage.setItem("describeImagesMode", "true");
@@ -33,25 +39,42 @@
     const filename = audioMaps.get(language)[textId];
     if (!filename) return;
     if (activeAudio) activeAudio.pause();
+    clearActiveGroup();
+    activeGroup = image.closest("[data-image-group]") || image;
+    activeGroup.classList.add("image-description-active");
     activeAudio = new Audio(`./content/i18n/${language}/audio/${filename}`);
+    activeAudio.addEventListener("ended", clearActiveGroup, { once: true });
+    activeAudio.addEventListener("error", clearActiveGroup, { once: true });
     await activeAudio.play();
   }
 
   document.addEventListener("click", (event) => {
     const image = event.target.closest?.("img[data-id]");
-    if (image) playDescription(image).catch(() => {});
+    if (image && image.getAttribute("aria-hidden") !== "true") playDescription(image).catch(() => {});
   });
 
   document.addEventListener("keydown", (event) => {
     if (event.key !== "Enter" && event.key !== " ") return;
     const image = event.target.closest?.("img[data-id]");
-    if (!image) return;
+    if (!image || image.getAttribute("aria-hidden") === "true") return;
     event.preventDefault();
     playDescription(image).catch(() => {});
   });
 
   document.addEventListener("DOMContentLoaded", () => {
+    const describedIds = new Set();
     document.querySelectorAll("img[data-id]").forEach((image) => {
+      const textId = image.getAttribute("data-id");
+      if (describedIds.has(textId)) {
+        image.setAttribute("aria-hidden", "true");
+        image.setAttribute("data-description-duplicate", "true");
+        image.alt = "";
+        image.removeAttribute("tabindex");
+        image.removeAttribute("role");
+        image.removeAttribute("aria-label");
+        return;
+      }
+      describedIds.add(textId);
       if (!image.closest("label, button, [role='button']")) {
         image.tabIndex = 0;
         image.setAttribute("role", "button");

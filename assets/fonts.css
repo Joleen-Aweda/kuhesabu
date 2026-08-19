@@ -56,3 +56,218 @@ body, p, h1, h2, h3, h4, h5, h6, span, div, button, input, textarea, select {
 #interface-container, #interface-container * {
   font-family: 'Atkinson Hyperlegible', sans-serif;
 }
+
+/*
+ * Book-wide responsive typography, based on pg011_sec001.
+ * These rules normalize converted pages that previously used many unrelated
+ * text scales while preserving the reader interface typography above.
+ */
+#content [data-id]:not(img) {
+  font-size: 1.9rem !important;
+  line-height: 1.25 !important;
+}
+
+#content h1,
+#content h1 [data-id] {
+  font-size: 3rem !important;
+  line-height: 1.15 !important;
+}
+
+#content h2,
+#content h2 [data-id],
+#content [data-id].italic:not(.font-bold) {
+  font-size: 2.25rem !important;
+  line-height: 1.2 !important;
+}
+
+#content h3,
+#content h3 [data-id],
+#content h4,
+#content h4 [data-id],
+#content h5,
+#content h5 [data-id],
+#content h6,
+#content h6 [data-id],
+#content [data-id].font-bold:not(.italic) {
+  font-size: 1.875rem !important;
+  line-height: 1.25 !important;
+}
+
+#content [data-id][class*="rotate-"] {
+  font-size: 3rem !important;
+  line-height: 1.15 !important;
+}
+
+@media (max-width: 1024px) {
+  #content [data-id]:not(img) {
+    font-size: 1.45rem !important;
+  }
+
+  #content h1,
+  #content h1 [data-id],
+  #content [data-id][class*="rotate-"] {
+    font-size: 2.25rem !important;
+  }
+
+  #content h2,
+  #content h2 [data-id],
+  #content [data-id].italic:not(.font-bold) {
+    font-size: 1.875rem !important;
+  }
+
+  #content h3,
+  #content h3 [data-id],
+  #content h4,
+  #content h4 [data-id],
+  #content h5,
+  #content h5 [data-id],
+  #content h6,
+  #content h6 [data-id],
+  #content [data-id].font-bold:not(.italic) {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media (max-width: 640px) {
+  #content [data-id]:not(img) {
+    font-size: 1rem !important;
+  }
+
+  #content h1,
+  #content h1 [data-id],
+  #content [data-id][class*="rotate-"] {
+    font-size: 1.875rem !important;
+  }
+
+  #content h2,
+  #content h2 [data-id],
+  #content [data-id].italic:not(.font-bold) {
+    font-size: 1.5rem !important;
+  }
+
+  #content h3,
+  #content h3 [data-id],
+  #content h4,
+  #content h4 [data-id],
+  #content h5,
+  #content h5 [data-id],
+  #content h6,
+  #content h6 [data-id],
+  #content [data-id].font-bold:not(.italic) {
+    font-size: 1.25rem !important;
+  }
+}
+
+/* Preserve the source PDF's bespoke cover hierarchy. */
+#content section[data-section-type="front_cover"] h1[data-id="pg001_n0002"].font-bold {
+  font-size: 6.2rem !important;
+  line-height: 1 !important;
+}
+
+#content section[data-section-type="front_cover"] [data-id="pg001_n0003"] {
+  font-size: 3rem !important;
+  line-height: 1.25 !important;
+}
+
+#content section[data-section-type="front_cover"] [data-id="pg001_n0004"] {
+  font-size: 2rem !important;
+  line-height: 1.25 !important;
+}
+
+#content section[data-section-type="front_cover"] [data-id="pg001_n0018"] {
+  font-size: 1.7rem !important;
+  line-height: 1.25 !important;
+}
+
+/* Page 5 credits use one shared source size and a six-em label column. */
+#content section[data-section-type="acknowledgements"] .credits-list,
+#content section[data-section-type="acknowledgements"] .credits-list dt,
+#content section[data-section-type="acknowledgements"] .credits-list dd[data-id] {
+  font-size: 1.9rem !important;
+  line-height: 1.75 !important;
+}
+
+#content section[data-section-type="acknowledgements"] .credits-list {
+  grid-template-columns: 11.5rem minmax(0, 1fr);
+}
+
+#content section[data-section-type="acknowledgements"] [data-id="pg005_n0002"] {
+  font-size: 2.3rem !important;
+  line-height: 1.2 !important;
+}
+
+@media (max-width: 1024px) {
+  #content section[data-section-type="front_cover"] h1[data-id="pg001_n0002"].font-bold { font-size: 4.8rem !important; }
+  #content section[data-section-type="front_cover"] [data-id="pg001_n0003"] { font-size: 2.4rem !important; }
+  #content section[data-section-type="front_cover"] [data-id="pg001_n0004"] { font-size: 1.7rem !important; }
+  #content section[data-section-type="front_cover"] [data-id="pg001_n0018"] { font-size: 1.5rem !important; }
+  #content section[data-section-type="acknowledgements"] .credits-list,
+  #content section[data-section-type="acknowledgements"] .credits-list dt,
+  #content section[data-section-type="acknowledgements"] .credits-list dd[data-id] { font-size: 1.45rem !important; }
+  #content section[data-section-type="acknowledgements"] .credits-list { grid-template-columns: 9rem minmax(0, 1fr); }
+  #content section[data-section-type="acknowledgements"] [data-id="pg005_n0002"] { font-size: 1.75rem !important; }
+}
+
+@media (max-width: 640px) {
+  #content section[data-section-type="front_cover"] h1[data-id="pg001_n0002"].font-bold { font-size: 3.3rem !important; }
+  #content section[data-section-type="front_cover"] [data-id="pg001_n0003"] { font-size: 1.25rem !important; }
+  #content section[data-section-type="front_cover"] [data-id="pg001_n0004"] { font-size: 0.95rem !important; }
+  #content section[data-section-type="front_cover"] [data-id="pg001_n0018"] { font-size: 0.95rem !important; }
+  #content section[data-section-type="acknowledgements"] .credits-list,
+  #content section[data-section-type="acknowledgements"] .credits-list dt,
+  #content section[data-section-type="acknowledgements"] .credits-list dd[data-id] { font-size: 1rem !important; }
+  #content section[data-section-type="acknowledgements"] .credits-list { grid-template-columns: minmax(0, 1fr); }
+  #content section[data-section-type="acknowledgements"] [data-id="pg005_n0002"] { font-size: 1.2rem !important; }
+}
+
+/* Remove print-only footer/watermark text from every converted page. */
+#content [data-id="pg006_n0001"],
+#content [data-id="pg011_n0024"],
+#content [data-id="pg017_n0033"],
+#content [data-id="pg019_n0093"],
+#content [data-id="pg034_n0036"],
+#content [data-id="pg039_n0030"],
+#content [data-id="pg049_n0072"],
+#content [data-id="pg083_n0051"],
+#content [data-id="pg100_n0121"],
+#content [data-id="pg103_n0045"],
+#content [data-id="pg110_n0072"],
+#content [data-id="pg126_n0029"],
+#content [data-id="pg131_n0074"],
+#content [data-id="pg132_n0113"] {
+  display: none !important;
+}
+
+/* Visible/read-aloud sequence markers for grouped textbook images. */
+#content .image-sequence-label {
+  display: block;
+  margin: 0.35rem 0 0.15rem;
+  padding: 0 0.75rem;
+  text-align: left;
+}
+/* Read-aloud focus for a complete visual group. */
+[data-image-group] {
+  transition: box-shadow 160ms ease, background-color 160ms ease;
+}
+
+[data-image-group].image-description-active {
+  position: relative;
+  z-index: 1;
+  background-color: #fff7ed;
+  box-shadow: inset 0 0 0 6px #f59e0b, 0 0 0 3px #ffffff;
+}
+.adt-original-page-number {
+  display: flex;
+  grid-column: 1 / -1;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 2rem auto 0;
+  padding-top: .75rem;
+  clear: both;
+  color: #0f766e;
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+}

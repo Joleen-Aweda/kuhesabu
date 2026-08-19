@@ -14,13 +14,6 @@
     "level": 1
   },
   {
-    "section_id": "pg004_sec001",
-    "href": "pg004_sec001.html",
-    "title": "Yaliyomo",
-    "chapter_id": "pg004_n0002",
-    "level": 1
-  },
-  {
     "section_id": "pg005_sec001",
     "href": "pg005_sec001.html",
     "title": "Shukurani",
@@ -134,7 +127,7 @@
   },
   {
     "section_id": "pg032_sec002",
-    "href": "pg032_sec002.html",
+    "href": "pg032_sec001.html",
     "title": "Mfano wa 1",
     "chapter_id": "pg032_n0014",
     "level": 3
@@ -148,7 +141,7 @@
   },
   {
     "section_id": "pg033_sec002",
-    "href": "pg033_sec002.html",
+    "href": "pg033_sec001.html",
     "title": "Kujumlisha namba tatu kwa ulalo kupata jumla isiyozidi 9",
     "chapter_id": "pg033_n0055",
     "level": 2
@@ -162,7 +155,7 @@
   },
   {
     "section_id": "pg035_sec002",
-    "href": "pg035_sec002.html",
+    "href": "pg035_sec001.html",
     "title": "Kuandika namba inayokosekana",
     "chapter_id": "pg035_n0041",
     "level": 2
@@ -183,14 +176,14 @@
   },
   {
     "section_id": "pg038_sec002",
-    "href": "pg038_sec002.html",
+    "href": "pg038_sec001.html",
     "title": "Zoezi la 8",
     "chapter_id": "pg038_n0029",
     "level": 2
   },
   {
     "section_id": "pg039_sec002",
-    "href": "pg039_sec002.html",
+    "href": "pg039_sec001.html",
     "title": "Kujumlisha namba kwa kutumia TEHAMA",
     "chapter_id": "pg039_n0021",
     "level": 2
@@ -252,22 +245,8 @@
     "level": 2
   },
   {
-    "section_id": "pg048_sec002",
-    "href": "pg048_sec002.html",
-    "title": "Kutoa namba kwa wima",
-    "chapter_id": "pg048_n0079",
-    "level": 2
-  },
-  {
-    "section_id": "pg050_sec002",
-    "href": "pg050_sec002.html",
-    "title": "Zoezi la 7",
-    "chapter_id": "pg050_n0032",
-    "level": 2
-  },
-  {
     "section_id": "pg051_sec002",
-    "href": "pg051_sec002.html",
+    "href": "pg051_sec001.html",
     "title": "Kutoa namba kwa kutumia TEHAMA",
     "chapter_id": "pg051_n0007",
     "level": 2
@@ -281,7 +260,7 @@
   },
   {
     "section_id": "pg053_sec002",
-    "href": "pg053_sec002.html",
+    "href": "pg053_sec001.html",
     "title": "Tuongeze vitu na kujumlisha namba kupata jumla 10",
     "chapter_id": "pg053_n0008",
     "level": 2
@@ -316,7 +295,7 @@
   },
   {
     "section_id": "pg058_sec002",
-    "href": "pg058_sec002.html",
+    "href": "pg058_sec001.html",
     "title": "Zoezi la 8",
     "chapter_id": "pg058_n0003",
     "level": 2
@@ -336,24 +315,10 @@
     "level": 2
   },
   {
-    "section_id": "pg065_sec001",
-    "href": "pg065_sec001.html",
-    "title": "Zoezi la 4",
-    "chapter_id": "pg065_n0003",
-    "level": 2
-  },
-  {
     "section_id": "pg065_sec002",
-    "href": "pg065_sec002.html",
+    "href": "pg065_sec001.html",
     "title": "Zoezi la 5",
     "chapter_id": "pg065_n0007",
-    "level": 2
-  },
-  {
-    "section_id": "pg066_sec001",
-    "href": "pg066_sec001.html",
-    "title": "Zoezi la 6",
-    "chapter_id": "pg066_n0002",
     "level": 2
   },
   {
@@ -365,16 +330,9 @@
   },
   {
     "section_id": "pg068_sec002",
-    "href": "pg068_sec002.html",
+    "href": "pg068_sec001.html",
     "title": "Kuandika namba kwa tarakimu",
     "chapter_id": "pg068_n0037",
-    "level": 2
-  },
-  {
-    "section_id": "pg069_sec001",
-    "href": "pg069_sec001.html",
-    "title": "Zoezi la 3",
-    "chapter_id": "pg069_n0003",
     "level": 2
   },
   {
@@ -392,24 +350,10 @@
     "level": 2
   },
   {
-    "section_id": "pg071_sec002",
-    "href": "pg071_sec002.html",
-    "title": "Zoezi la 2",
-    "chapter_id": "pg071_n0020",
-    "level": 2
-  },
-  {
     "section_id": "pg072_sec001",
     "href": "pg072_sec001.html",
     "title": "Zoezi la 3",
     "chapter_id": "pg072_n0003",
-    "level": 2
-  },
-  {
-    "section_id": "pg072_sec002",
-    "href": "pg072_sec002.html",
-    "title": "Zoezi la 4",
-    "chapter_id": "pg072_n0036",
     "level": 2
   },
   {
@@ -449,21 +393,14 @@
   },
   {
     "section_id": "pg081_sec002",
-    "href": "pg081_sec002.html",
+    "href": "pg081_sec001.html",
     "title": "Tutambue thamani ya nafasi ya tarakimu",
     "chapter_id": "pg081_n0040",
     "level": 2
   },
   {
-    "section_id": "pg082_sec001",
-    "href": "pg082_sec001.html",
-    "title": "Mfano wa 1",
-    "chapter_id": "pg082_n0002",
-    "level": 3
-  },
-  {
     "section_id": "pg082_sec002",
-    "href": "pg082_sec002.html",
+    "href": "pg082_sec001.html",
     "title": "Tutambue thamani ya nafasi ya tarakimu katika makumi na mamoja",
     "chapter_id": "pg082_n0026",
     "level": 2
@@ -488,20 +425,6 @@
     "title": "Sura ya Kumi na Tatu",
     "chapter_id": "pg088_n0002",
     "level": 1
-  },
-  {
-    "section_id": "pg088_sec002",
-    "href": "pg088_sec002.html",
-    "title": "Mfano wa 1",
-    "chapter_id": "pg088_n0015",
-    "level": 2
-  },
-  {
-    "section_id": "pg089_sec001",
-    "href": "pg089_sec001.html",
-    "title": "Mfano wa 2",
-    "chapter_id": "pg089_n0007",
-    "level": 2
   },
   {
     "section_id": "pg090_sec001",
@@ -540,21 +463,14 @@
   },
   {
     "section_id": "pg095_sec002",
-    "href": "pg095_sec002.html",
+    "href": "pg095_sec001.html",
     "title": "Kujumlisha namba kwa ulalo kwa kubadili mafungu",
     "chapter_id": "pg095_n0030",
     "level": 2
   },
   {
-    "section_id": "pg096_sec001",
-    "href": "pg096_sec001.html",
-    "title": "Hatua",
-    "chapter_id": "pg096_n0002",
-    "level": 3
-  },
-  {
     "section_id": "pg096_sec002",
-    "href": "pg096_sec002.html",
+    "href": "pg096_sec001.html",
     "title": "Zoezi la 5",
     "chapter_id": "pg096_n0004",
     "level": 2
@@ -572,13 +488,6 @@
     "title": "Kujumlisha namba kwa wima kwa kubadili mafungu",
     "chapter_id": "pg098_n0002",
     "level": 2
-  },
-  {
-    "section_id": "pg098_sec002",
-    "href": "pg098_sec002.html",
-    "title": "Mfano",
-    "chapter_id": "pg098_n0008",
-    "level": 3
   },
   {
     "section_id": "pg099_sec001",
@@ -603,24 +512,17 @@
   },
   {
     "section_id": "pg102_sec002",
-    "href": "pg102_sec002.html",
+    "href": "pg102_sec001.html",
     "title": "Kujumlisha thamani ya fedha kwa wima",
     "chapter_id": "pg102_n0023",
     "level": 2
   },
   {
     "section_id": "pg103_sec002",
-    "href": "pg103_sec002.html",
+    "href": "pg103_sec001.html",
     "title": "Mafumbo ya kujumlisha",
     "chapter_id": "pg103_n0035",
     "level": 2
-  },
-  {
-    "section_id": "pg104_sec001",
-    "href": "pg104_sec001.html",
-    "title": "Njia",
-    "chapter_id": "pg104_n0003",
-    "level": 3
   },
   {
     "section_id": "pg106_sec001",
@@ -638,42 +540,35 @@
   },
   {
     "section_id": "pg107_sec002",
-    "href": "pg107_sec002.html",
+    "href": "pg107_sec001.html",
     "title": "Zoezi la 2",
     "chapter_id": "pg107_n0028",
     "level": 2
   },
   {
     "section_id": "pg108_sec002",
-    "href": "pg108_sec002.html",
+    "href": "pg108_sec001.html",
     "title": "Kutoa namba kwa wima bila kubadili mafungu",
     "chapter_id": "pg108_n0039",
     "level": 2
   },
   {
     "section_id": "pg109_sec002",
-    "href": "pg109_sec002.html",
+    "href": "pg109_sec001.html",
     "title": "Zoezi la 3",
     "chapter_id": "pg109_n0027",
     "level": 2
   },
   {
-    "section_id": "pg110_sec001",
-    "href": "pg110_sec001.html",
-    "title": "Zoezi la 4",
-    "chapter_id": "pg110_n0016",
-    "level": 2
-  },
-  {
     "section_id": "pg111_sec002",
-    "href": "pg111_sec002.html",
+    "href": "pg111_sec001.html",
     "title": "Kutoa namba kwa ulalo kwa kubadili mafungu",
     "chapter_id": "pg111_n0030",
     "level": 2
   },
   {
     "section_id": "pg113_sec002",
-    "href": "pg113_sec002.html",
+    "href": "pg113_sec001.html",
     "title": "Zoezi la 5",
     "chapter_id": "pg113_n0025",
     "level": 2
@@ -694,65 +589,44 @@
   },
   {
     "section_id": "pg116_sec002",
-    "href": "pg116_sec002.html",
+    "href": "pg116_sec001.html",
     "title": "Zoezi la 7",
     "chapter_id": "pg116_n0008",
     "level": 2
   },
   {
     "section_id": "pg118_sec002",
-    "href": "pg118_sec002.html",
+    "href": "pg118_sec001.html",
     "title": "Kutoa thamani ya fedha",
     "chapter_id": "pg118_n0039",
     "level": 2
   },
   {
-    "section_id": "pg119_sec001",
-    "href": "pg119_sec001.html",
-    "title": "Zoezi la 9",
-    "chapter_id": "pg119_n0003",
-    "level": 2
-  },
-  {
     "section_id": "pg119_sec002",
-    "href": "pg119_sec002.html",
+    "href": "pg119_sec001.html",
     "title": "Kutoa thamani ya fedha kwa wima",
     "chapter_id": "pg119_n0031",
     "level": 2
   },
   {
     "section_id": "pg120_sec002",
-    "href": "pg120_sec002.html",
+    "href": "pg120_sec001.html",
     "title": "Mafumbo ya kutoa",
     "chapter_id": "pg120_n0029",
     "level": 2
   },
   {
-    "section_id": "pg121_sec001",
-    "href": "pg121_sec001.html",
-    "title": "Njia",
-    "chapter_id": "pg121_n0003",
-    "level": 3
-  },
-  {
     "section_id": "pg122_sec002",
-    "href": "pg122_sec002.html",
+    "href": "pg122_sec001.html",
     "title": "Maswali ya kujumlisha na kutoa",
     "chapter_id": "pg122_n0029",
     "level": 2
   },
   {
     "section_id": "pg123_sec002",
-    "href": "pg123_sec002.html",
+    "href": "pg123_sec001.html",
     "title": "Zoezi la 13",
     "chapter_id": "pg123_n0059",
-    "level": 2
-  },
-  {
-    "section_id": "pg124_sec001",
-    "href": "pg124_sec001.html",
-    "title": "Zoezi la 14",
-    "chapter_id": "pg124_n0010",
     "level": 2
   },
   {
@@ -763,13 +637,6 @@
     "level": 1
   },
   {
-    "section_id": "pg125_sec002",
-    "href": "pg125_sec002.html",
-    "title": "Zoezi la 1",
-    "chapter_id": "pg125_n0014",
-    "level": 2
-  },
-  {
     "section_id": "pg126_sec001",
     "href": "pg126_sec001.html",
     "title": "Zoezi la 2",
@@ -778,7 +645,7 @@
   },
   {
     "section_id": "pg127_sec002",
-    "href": "pg127_sec002.html",
+    "href": "pg127_sec001.html",
     "title": "Zoezi la 3",
     "chapter_id": "pg127_n0022",
     "level": 2

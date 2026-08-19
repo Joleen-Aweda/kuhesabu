@@ -1,0 +1,20 @@
+{
+  "texts_per_locale": 7501,
+  "mapped_audio_ids": 7451,
+  "easy_read_audio_ids": 2786,
+  "html_files": 208,
+  "html_data_ids": 3380,
+  "image_instances": 321,
+  "duplicate_image_instances_consolidated_at_runtime": 46,
+  "rule_counts": {
+    "abbreviation_expanded": 12,
+    "answer_field_removed": 1008,
+    "list_letter_expanded": 8,
+    "mixed_english_segment": 36,
+    "numbered_heading_ordinal": 280,
+    "roman_numeral_expanded": 3,
+    "spoken_text_differs_from_visible": 6713
+  },
+  "human_listening_review_count": 968,
+  "errors": []
+}

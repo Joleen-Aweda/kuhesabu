@@ -1,0 +1,38 @@
+.answer-display-only {
+  display: block;
+  box-sizing: border-box;
+  min-width: 0;
+  height: 3.25rem;
+  padding: 0.35rem 0.5rem;
+  overflow: hidden;
+  resize: none;
+  border: 2px solid #64748b;
+  border-radius: 0.55rem;
+  background: #fff;
+  color: transparent;
+  caret-color: transparent;
+  pointer-events: none;
+  user-select: none;
+}
+
+.answer-display-only--number {
+  width: clamp(2.5rem, 8vw, 4.5rem);
+  margin-inline: auto;
+  text-align: center;
+}
+
+.answer-display-only--short {
+  width: min(10rem, 100%);
+}
+
+.answer-display-only--word {
+  width: 100%;
+  min-height: 3.25rem;
+}
+
+@media (max-width: 640px) {
+  .answer-display-only {
+    height: 2.75rem;
+    border-radius: 0.45rem;
+  }
+}

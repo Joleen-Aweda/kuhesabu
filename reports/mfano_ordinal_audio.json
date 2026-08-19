@@ -1,0 +1,632 @@
+{
+  "pg007_n0012": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg007_n0009": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg028_n0009": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg028_n0012": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg030_n0007": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg030_n0011": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg032_n0014": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg032_n0017": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg033_n0060": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg034_n0002": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg035_n0045": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg036_n0003": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg037_n0007": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg037_n0009": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg041_n0009": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg041_n0014": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg042_n0055": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg043_n0003": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg047_n0088": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg047_n0092": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg048_n0084": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg048_n0086": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg053_n0011": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg053_n0016": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg055_n0009": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg055_n0012": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg056_n0004": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg056_n0007": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg057_n0005": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg057_n0007": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg056_im007": {
+    "visible": "Mfano wa 2: 8 kutoa 3 ni 5, ukionyeshwa kwa nukta 8 ambapo 3 zimekatwa na 5 zimebaki.",
+    "spoken": [
+      "Mfano wa pili: nane kutoa tatu ni tano, ukionyeshwa kwa nukta nane ambapo tatu zimekatwa na tano zimebaki."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg056_im006": {
+    "visible": "Mfano wa 1: 10 kutoa 6 ni 4, ukionyeshwa kwa nukta 10 ambapo 6 zimekatwa na 4 zimebaki.",
+    "spoken": [
+      "Mfano wa kwanza: kumi kutoa sita ni nne, ukionyeshwa kwa nukta kumi ambapo sita zimekatwa na nne zimebaki."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg070_n0013": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg070_n0018": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg082_n0002": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg082_n0014": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg084_n0007": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg084_n0013": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg088_n0015": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg089_n0007": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg111_n0035": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg112_im007_crop1": {
+    "visible": "Mfano wa 2 wa kutoa 80 − 44, unaoonyesha jibu 36 na hatua ya kwanza kwamba 0 − 4 katika mamoja haiwezekani hivyo kunahitajika kukopa.",
+    "spoken": [
+      "Mfano wa pili wa kutoa themanini toa arobaini na nne, unaoonyesha jibu thelathini na sita na hatua ya kwanza kwamba sifuri toa nne katika mamoja haiwezekani hivyo kunahitajika kukopa."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg007_n0009_easy_read": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg007_n0012_easy_read": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg028_n0009_easy_read": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg028_n0012_easy_read": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg030_n0007_easy_read": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg030_n0011_easy_read": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg032_n0014_easy_read": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg032_n0017_easy_read": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg034_n0002_easy_read": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg035_n0045_easy_read": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg036_n0003_easy_read": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg037_n0007_easy_read": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg037_n0009_easy_read": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg041_n0009_easy_read": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg041_n0014_easy_read": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg042_n0055_easy_read": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg043_n0003_easy_read": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg047_n0088_easy_read": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg047_n0092_easy_read": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg053_n0011_easy_read": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg053_n0016_easy_read": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg055_n0009_easy_read": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg055_n0012_easy_read": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg056_n0004_easy_read": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg056_n0007_easy_read": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg057_n0005_easy_read": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg057_n0007_easy_read": {
+    "visible": "Mfano wa 2",
+    "spoken": [
+      "Mfano wa pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg088_n0015_easy_read": {
+    "visible": "Mfano wa 1",
+    "spoken": [
+      "Mfano wa kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  }
+}

@@ -41,6 +41,11 @@ def main() -> None:
             text_id = image.get("data-id", "").strip()
             alt = image.get("alt", "").strip()
             if not text_id:
+                if image.get("aria-hidden", "").casefold() == "true" and not alt:
+                    continue
+                visual_id = image.get("data-visual-id", "").strip()
+                if visual_id and f'data-id="{visual_id}"' in page.read_text(encoding="utf-8"):
+                    continue
                 errors.append(f"{page.name}: image without data-id")
                 continue
             if not alt:

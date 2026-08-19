@@ -1,0 +1,56 @@
+{
+  "pg009_im003": {
+    "visible": "Wavulana wawili wamesimama na mabegi migongoni.",
+    "spoken": [
+      "Wavulana wawili wamesimama na mabegi migongoni."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_im005": {
+    "visible": "Wasichana wanne wamesimama na mabegi migongoni.",
+    "spoken": [
+      "Wasichana wanne wamesimama na mabegi migongoni."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_im017": {
+    "visible": "Mbuzi sita wamesimama.",
+    "spoken": [
+      "Mbuzi sita wamesimama."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_im016": {
+    "visible": "Mbwa watatu wa kahawia wamesimama.",
+    "spoken": [
+      "Mbwa watatu wa kahawia wamesimama."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_im013": {
+    "visible": "Paka wanne wamesimama na mikia juu.",
+    "spoken": [
+      "Paka wanne wamesimama na mikia juu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_im007": {
+    "visible": "Panya sita wa kijivu wamekaa.",
+    "spoken": [
+      "Panya sita wa kijivu wamekaa."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  }
+}

@@ -1,0 +1,4844 @@
+{
+  "pg007_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg007_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg007_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg007_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg007_sec001_imglbl003": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg007_sec001_imglbl003_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg007_sec001_imglbl004": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg007_sec001_imglbl004_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg008_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg008_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg008_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg008_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg008_sec001_imglbl003": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg008_sec001_imglbl003_easy_read": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg008_sec001_imglbl004": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg008_sec001_imglbl004_easy_read": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg008_sec001_imglbl005": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg008_sec001_imglbl005_easy_read": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg008_sec001_imglbl006": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg008_sec001_imglbl006_easy_read": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg008_sec001_imglbl007": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg008_sec001_imglbl007_easy_read": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg008_sec001_imglbl008": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg008_sec001_imglbl008_easy_read": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg008_sec002_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg008_sec002_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg008_sec002_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg008_sec002_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl003": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl003_easy_read": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl004": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl004_easy_read": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl005": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl005_easy_read": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl006": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl006_easy_read": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl007": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl007_easy_read": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl008": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl008_easy_read": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl009": {
+    "visible": "i",
+    "spoken": [
+      "i."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl009_easy_read": {
+    "visible": "i",
+    "spoken": [
+      "i."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl010": {
+    "visible": "j",
+    "spoken": [
+      "je."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl010_easy_read": {
+    "visible": "j",
+    "spoken": [
+      "je."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl011": {
+    "visible": "k",
+    "spoken": [
+      "ka."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl011_easy_read": {
+    "visible": "k",
+    "spoken": [
+      "ka."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl012": {
+    "visible": "l",
+    "spoken": [
+      "ele."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl012_easy_read": {
+    "visible": "l",
+    "spoken": [
+      "ele."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl013": {
+    "visible": "m",
+    "spoken": [
+      "eme."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl013_easy_read": {
+    "visible": "m",
+    "spoken": [
+      "eme."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl014": {
+    "visible": "n",
+    "spoken": [
+      "ene."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl014_easy_read": {
+    "visible": "n",
+    "spoken": [
+      "ene."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl015": {
+    "visible": "o",
+    "spoken": [
+      "o."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl015_easy_read": {
+    "visible": "o",
+    "spoken": [
+      "o."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl016": {
+    "visible": "p",
+    "spoken": [
+      "pe."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl016_easy_read": {
+    "visible": "p",
+    "spoken": [
+      "pe."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl017": {
+    "visible": "q",
+    "spoken": [
+      "ku."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl017_easy_read": {
+    "visible": "q",
+    "spoken": [
+      "ku."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl018": {
+    "visible": "r",
+    "spoken": [
+      "ere."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl018_easy_read": {
+    "visible": "r",
+    "spoken": [
+      "ere."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl019": {
+    "visible": "s",
+    "spoken": [
+      "ese."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl019_easy_read": {
+    "visible": "s",
+    "spoken": [
+      "ese."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl020": {
+    "visible": "t",
+    "spoken": [
+      "te."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl020_easy_read": {
+    "visible": "t",
+    "spoken": [
+      "te."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl021": {
+    "visible": "u",
+    "spoken": [
+      "u."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl021_easy_read": {
+    "visible": "u",
+    "spoken": [
+      "u."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl022": {
+    "visible": "v",
+    "spoken": [
+      "ve."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl022_easy_read": {
+    "visible": "v",
+    "spoken": [
+      "ve."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl023": {
+    "visible": "w",
+    "spoken": [
+      "we."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl023_easy_read": {
+    "visible": "w",
+    "spoken": [
+      "we."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl024": {
+    "visible": "x",
+    "spoken": [
+      "eksi."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl024_easy_read": {
+    "visible": "x",
+    "spoken": [
+      "eksi."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl025": {
+    "visible": "y",
+    "spoken": [
+      "ya."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg009_sec001_imglbl025_easy_read": {
+    "visible": "y",
+    "spoken": [
+      "ya."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg010_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg010_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg010_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg010_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg010_sec001_imglbl003": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg010_sec001_imglbl003_easy_read": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg010_sec001_imglbl004": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg010_sec001_imglbl004_easy_read": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg010_sec001_imglbl005": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg010_sec001_imglbl005_easy_read": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg010_sec001_imglbl006": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg010_sec001_imglbl006_easy_read": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg010_sec001_imglbl007": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg010_sec001_imglbl007_easy_read": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg010_sec001_imglbl008": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg010_sec001_imglbl008_easy_read": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg010_sec001_imglbl009": {
+    "visible": "i",
+    "spoken": [
+      "i."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg010_sec001_imglbl009_easy_read": {
+    "visible": "i",
+    "spoken": [
+      "i."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg010_sec001_imglbl010": {
+    "visible": "j",
+    "spoken": [
+      "je."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg010_sec001_imglbl010_easy_read": {
+    "visible": "j",
+    "spoken": [
+      "je."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl003": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl003_easy_read": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl004": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl004_easy_read": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl005": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl005_easy_read": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl006": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl006_easy_read": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl007": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl007_easy_read": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl008": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl008_easy_read": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl009": {
+    "visible": "i",
+    "spoken": [
+      "i."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl009_easy_read": {
+    "visible": "i",
+    "spoken": [
+      "i."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl010": {
+    "visible": "j",
+    "spoken": [
+      "je."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl010_easy_read": {
+    "visible": "j",
+    "spoken": [
+      "je."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl011": {
+    "visible": "k",
+    "spoken": [
+      "ka."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl011_easy_read": {
+    "visible": "k",
+    "spoken": [
+      "ka."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl012": {
+    "visible": "l",
+    "spoken": [
+      "ele."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl012_easy_read": {
+    "visible": "l",
+    "spoken": [
+      "ele."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl013": {
+    "visible": "m",
+    "spoken": [
+      "eme."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl013_easy_read": {
+    "visible": "m",
+    "spoken": [
+      "eme."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl014": {
+    "visible": "n",
+    "spoken": [
+      "ene."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_sec001_imglbl014_easy_read": {
+    "visible": "n",
+    "spoken": [
+      "ene."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg012_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg012_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg012_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg012_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg012_sec001_imglbl003": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg012_sec001_imglbl003_easy_read": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg012_sec001_imglbl004": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg012_sec001_imglbl004_easy_read": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg012_sec001_imglbl005": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg012_sec001_imglbl005_easy_read": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg012_sec001_imglbl006": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg012_sec001_imglbl006_easy_read": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg012_sec001_imglbl007": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg012_sec001_imglbl007_easy_read": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg012_sec001_imglbl008": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg012_sec001_imglbl008_easy_read": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg013_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg013_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg013_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg013_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg013_sec001_imglbl003": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg013_sec001_imglbl003_easy_read": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg013_sec001_imglbl004": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg013_sec001_imglbl004_easy_read": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg013_sec001_imglbl005": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg013_sec001_imglbl005_easy_read": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg013_sec001_imglbl006": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg013_sec001_imglbl006_easy_read": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg013_sec001_imglbl007": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg013_sec001_imglbl007_easy_read": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg013_sec001_imglbl008": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg013_sec001_imglbl008_easy_read": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg013_sec001_imglbl009": {
+    "visible": "i",
+    "spoken": [
+      "i."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg013_sec001_imglbl009_easy_read": {
+    "visible": "i",
+    "spoken": [
+      "i."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg015_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg015_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg015_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg015_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg015_sec001_imglbl003": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg015_sec001_imglbl003_easy_read": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg015_sec001_imglbl004": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg015_sec001_imglbl004_easy_read": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg015_sec001_imglbl005": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg015_sec001_imglbl005_easy_read": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg016_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg016_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg016_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg016_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg024_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg024_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg024_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg024_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg024_sec001_imglbl003": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg024_sec001_imglbl003_easy_read": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg024_sec001_imglbl004": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg024_sec001_imglbl004_easy_read": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg024_sec001_imglbl005": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg024_sec001_imglbl005_easy_read": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg024_sec001_imglbl006": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg024_sec001_imglbl006_easy_read": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg024_sec001_imglbl007": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg024_sec001_imglbl007_easy_read": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg024_sec001_imglbl008": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg024_sec001_imglbl008_easy_read": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg024_sec001_imglbl009": {
+    "visible": "i",
+    "spoken": [
+      "i."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg024_sec001_imglbl009_easy_read": {
+    "visible": "i",
+    "spoken": [
+      "i."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg024_sec001_imglbl010": {
+    "visible": "j",
+    "spoken": [
+      "je."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg024_sec001_imglbl010_easy_read": {
+    "visible": "j",
+    "spoken": [
+      "je."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg026_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg026_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg026_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg026_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg026_sec001_imglbl003": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg026_sec001_imglbl003_easy_read": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg026_sec001_imglbl004": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg026_sec001_imglbl004_easy_read": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg026_sec001_imglbl005": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg026_sec001_imglbl005_easy_read": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg026_sec001_imglbl006": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg026_sec001_imglbl006_easy_read": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg026_sec001_imglbl007": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg026_sec001_imglbl007_easy_read": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg026_sec001_imglbl008": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg026_sec001_imglbl008_easy_read": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg027_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg027_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg027_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg027_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg027_sec001_imglbl003": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg027_sec001_imglbl003_easy_read": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg027_sec001_imglbl004": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg027_sec001_imglbl004_easy_read": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg027_sec001_imglbl005": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg027_sec001_imglbl005_easy_read": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg027_sec001_imglbl006": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg027_sec001_imglbl006_easy_read": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg027_sec001_imglbl007": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg027_sec001_imglbl007_easy_read": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg027_sec001_imglbl008": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg027_sec001_imglbl008_easy_read": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg028_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg028_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg028_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg028_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg028_sec001_imglbl003": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg028_sec001_imglbl003_easy_read": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg028_sec001_imglbl004": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg028_sec001_imglbl004_easy_read": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg028_sec001_imglbl005": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg028_sec001_imglbl005_easy_read": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg028_sec001_imglbl006": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg028_sec001_imglbl006_easy_read": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg028_sec002_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg028_sec002_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg028_sec002_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg028_sec002_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg031_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg031_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg031_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg031_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg031_sec001_imglbl003": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg031_sec001_imglbl003_easy_read": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg031_sec001_imglbl004": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg031_sec001_imglbl004_easy_read": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg031_sec001_imglbl005": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg031_sec001_imglbl005_easy_read": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg031_sec001_imglbl006": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg031_sec001_imglbl006_easy_read": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg031_sec001_imglbl007": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg031_sec001_imglbl007_easy_read": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg031_sec001_imglbl008": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg031_sec001_imglbl008_easy_read": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg031_sec001_imglbl009": {
+    "visible": "i",
+    "spoken": [
+      "i."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg031_sec001_imglbl009_easy_read": {
+    "visible": "i",
+    "spoken": [
+      "i."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg032_sec002_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg032_sec002_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg032_sec002_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg032_sec002_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg037_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg037_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg037_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg037_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg039_sec002_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg039_sec002_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg039_sec002_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg039_sec002_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg041_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg041_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg041_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg041_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg043_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg043_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg043_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg043_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg043_sec001_imglbl003": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg043_sec001_imglbl003_easy_read": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl003": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl003_easy_read": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl004": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl004_easy_read": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl005": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl005_easy_read": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl006": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl006_easy_read": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl007": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl007_easy_read": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl008": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl008_easy_read": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl009": {
+    "visible": "i",
+    "spoken": [
+      "i."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl009_easy_read": {
+    "visible": "i",
+    "spoken": [
+      "i."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl010": {
+    "visible": "j",
+    "spoken": [
+      "je."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl010_easy_read": {
+    "visible": "j",
+    "spoken": [
+      "je."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl011": {
+    "visible": "k",
+    "spoken": [
+      "ka."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl011_easy_read": {
+    "visible": "k",
+    "spoken": [
+      "ka."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl012": {
+    "visible": "l",
+    "spoken": [
+      "ele."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl012_easy_read": {
+    "visible": "l",
+    "spoken": [
+      "ele."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl013": {
+    "visible": "m",
+    "spoken": [
+      "eme."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl013_easy_read": {
+    "visible": "m",
+    "spoken": [
+      "eme."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl014": {
+    "visible": "n",
+    "spoken": [
+      "ene."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl014_easy_read": {
+    "visible": "n",
+    "spoken": [
+      "ene."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl015": {
+    "visible": "o",
+    "spoken": [
+      "o."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl015_easy_read": {
+    "visible": "o",
+    "spoken": [
+      "o."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl016": {
+    "visible": "p",
+    "spoken": [
+      "pe."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl016_easy_read": {
+    "visible": "p",
+    "spoken": [
+      "pe."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl017": {
+    "visible": "q",
+    "spoken": [
+      "ku."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl017_easy_read": {
+    "visible": "q",
+    "spoken": [
+      "ku."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl018": {
+    "visible": "r",
+    "spoken": [
+      "ere."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl018_easy_read": {
+    "visible": "r",
+    "spoken": [
+      "ere."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl019": {
+    "visible": "s",
+    "spoken": [
+      "ese."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl019_easy_read": {
+    "visible": "s",
+    "spoken": [
+      "ese."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl020": {
+    "visible": "t",
+    "spoken": [
+      "te."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl020_easy_read": {
+    "visible": "t",
+    "spoken": [
+      "te."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl021": {
+    "visible": "u",
+    "spoken": [
+      "u."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl021_easy_read": {
+    "visible": "u",
+    "spoken": [
+      "u."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl022": {
+    "visible": "v",
+    "spoken": [
+      "ve."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl022_easy_read": {
+    "visible": "v",
+    "spoken": [
+      "ve."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl023": {
+    "visible": "w",
+    "spoken": [
+      "we."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl023_easy_read": {
+    "visible": "w",
+    "spoken": [
+      "we."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl024": {
+    "visible": "x",
+    "spoken": [
+      "eksi."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl024_easy_read": {
+    "visible": "x",
+    "spoken": [
+      "eksi."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl025": {
+    "visible": "y",
+    "spoken": [
+      "ya."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl025_easy_read": {
+    "visible": "y",
+    "spoken": [
+      "ya."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl026": {
+    "visible": "z",
+    "spoken": [
+      "ze."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl026_easy_read": {
+    "visible": "z",
+    "spoken": [
+      "ze."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl027": {
+    "visible": "aa",
+    "spoken": [
+      "aa."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl027_easy_read": {
+    "visible": "aa",
+    "spoken": [
+      "aa."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl028": {
+    "visible": "ab",
+    "spoken": [
+      "ab."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl028_easy_read": {
+    "visible": "ab",
+    "spoken": [
+      "ab."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl029": {
+    "visible": "ac",
+    "spoken": [
+      "ac."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl029_easy_read": {
+    "visible": "ac",
+    "spoken": [
+      "ac."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl030": {
+    "visible": "ad",
+    "spoken": [
+      "ad."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl030_easy_read": {
+    "visible": "ad",
+    "spoken": [
+      "ad."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl031": {
+    "visible": "ae",
+    "spoken": [
+      "ae."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg044_sec001_imglbl031_easy_read": {
+    "visible": "ae",
+    "spoken": [
+      "ae."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg048_sec002_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg048_sec002_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg048_sec002_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg048_sec002_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg051_sec002_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg051_sec002_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg051_sec002_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg051_sec002_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg052_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg052_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg052_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg052_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg053_sec002_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg053_sec002_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg053_sec002_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg053_sec002_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg054_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg054_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg054_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg054_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg054_sec001_imglbl003": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg054_sec001_imglbl003_easy_read": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg054_sec001_imglbl004": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg054_sec001_imglbl004_easy_read": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg056_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg056_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg056_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg056_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg057_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg057_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg057_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg057_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg074_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg074_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg074_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg074_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg074_sec001_imglbl003": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg074_sec001_imglbl003_easy_read": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg074_sec001_imglbl004": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg074_sec001_imglbl004_easy_read": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg074_sec001_imglbl005": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg074_sec001_imglbl005_easy_read": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg074_sec001_imglbl006": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg074_sec001_imglbl006_easy_read": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg075_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg075_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg075_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg075_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg075_sec001_imglbl003": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg075_sec001_imglbl003_easy_read": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg075_sec001_imglbl004": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg075_sec001_imglbl004_easy_read": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg075_sec001_imglbl005": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg075_sec001_imglbl005_easy_read": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg075_sec001_imglbl006": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg075_sec001_imglbl006_easy_read": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg077_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg077_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg077_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg077_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg077_sec001_imglbl003": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg077_sec001_imglbl003_easy_read": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg077_sec001_imglbl004": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg077_sec001_imglbl004_easy_read": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg077_sec001_imglbl005": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg077_sec001_imglbl005_easy_read": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg077_sec001_imglbl006": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg077_sec001_imglbl006_easy_read": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg078_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg078_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg078_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg078_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg078_sec001_imglbl003": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg078_sec001_imglbl003_easy_read": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg078_sec001_imglbl004": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg078_sec001_imglbl004_easy_read": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg078_sec001_imglbl005": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg078_sec001_imglbl005_easy_read": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg078_sec001_imglbl006": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg078_sec001_imglbl006_easy_read": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg078_sec001_imglbl007": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg078_sec001_imglbl007_easy_read": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg079_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg079_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg079_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg079_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg079_sec001_imglbl003": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg079_sec001_imglbl003_easy_read": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg079_sec001_imglbl004": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg079_sec001_imglbl004_easy_read": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg079_sec001_imglbl005": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg079_sec001_imglbl005_easy_read": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg079_sec001_imglbl006": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg079_sec001_imglbl006_easy_read": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg079_sec001_imglbl007": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg079_sec001_imglbl007_easy_read": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg079_sec001_imglbl008": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg079_sec001_imglbl008_easy_read": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg079_sec001_imglbl009": {
+    "visible": "i",
+    "spoken": [
+      "i."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg079_sec001_imglbl009_easy_read": {
+    "visible": "i",
+    "spoken": [
+      "i."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg079_sec001_imglbl010": {
+    "visible": "j",
+    "spoken": [
+      "je."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg079_sec001_imglbl010_easy_read": {
+    "visible": "j",
+    "spoken": [
+      "je."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl003": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl003_easy_read": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl004": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl004_easy_read": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl005": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl005_easy_read": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl006": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl006_easy_read": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl007": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl007_easy_read": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl008": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl008_easy_read": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl009": {
+    "visible": "i",
+    "spoken": [
+      "i."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl009_easy_read": {
+    "visible": "i",
+    "spoken": [
+      "i."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl010": {
+    "visible": "j",
+    "spoken": [
+      "je."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl010_easy_read": {
+    "visible": "j",
+    "spoken": [
+      "je."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl011": {
+    "visible": "k",
+    "spoken": [
+      "ka."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl011_easy_read": {
+    "visible": "k",
+    "spoken": [
+      "ka."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl012": {
+    "visible": "l",
+    "spoken": [
+      "ele."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl012_easy_read": {
+    "visible": "l",
+    "spoken": [
+      "ele."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl013": {
+    "visible": "m",
+    "spoken": [
+      "eme."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl013_easy_read": {
+    "visible": "m",
+    "spoken": [
+      "eme."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl014": {
+    "visible": "n",
+    "spoken": [
+      "ene."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl014_easy_read": {
+    "visible": "n",
+    "spoken": [
+      "ene."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl015": {
+    "visible": "o",
+    "spoken": [
+      "o."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl015_easy_read": {
+    "visible": "o",
+    "spoken": [
+      "o."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl016": {
+    "visible": "p",
+    "spoken": [
+      "pe."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_sec002_imglbl016_easy_read": {
+    "visible": "p",
+    "spoken": [
+      "pe."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg081_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg081_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg081_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg081_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg081_sec001_imglbl003": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg081_sec001_imglbl003_easy_read": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg084_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg084_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg084_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg084_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg084_sec002_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg084_sec002_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg084_sec002_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg084_sec002_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg085_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg085_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg085_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg085_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg085_sec001_imglbl003": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg085_sec001_imglbl003_easy_read": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg085_sec001_imglbl004": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg085_sec001_imglbl004_easy_read": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg085_sec001_imglbl005": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg085_sec001_imglbl005_easy_read": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg085_sec001_imglbl006": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg085_sec001_imglbl006_easy_read": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg113_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg113_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg113_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg113_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg113_sec001_imglbl003": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg113_sec001_imglbl003_easy_read": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg126_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg126_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg126_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg126_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg126_sec001_imglbl003": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg126_sec001_imglbl003_easy_read": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg126_sec001_imglbl004": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg126_sec001_imglbl004_easy_read": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg126_sec001_imglbl005": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg126_sec001_imglbl005_easy_read": {
+    "visible": "e",
+    "spoken": [
+      "e."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg126_sec001_imglbl006": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg126_sec001_imglbl006_easy_read": {
+    "visible": "f",
+    "spoken": [
+      "efu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg126_sec001_imglbl007": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg126_sec001_imglbl007_easy_read": {
+    "visible": "g",
+    "spoken": [
+      "ge."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg126_sec001_imglbl008": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg126_sec001_imglbl008_easy_read": {
+    "visible": "h",
+    "spoken": [
+      "ha."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg127_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg127_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg127_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg127_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg127_sec001_imglbl003": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg127_sec001_imglbl003_easy_read": {
+    "visible": "c",
+    "spoken": [
+      "che."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg127_sec001_imglbl004": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg127_sec001_imglbl004_easy_read": {
+    "visible": "d",
+    "spoken": [
+      "de."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg132_sec001_imglbl001": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg132_sec001_imglbl001_easy_read": {
+    "visible": "a",
+    "spoken": [
+      "a."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg132_sec001_imglbl002": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg132_sec001_imglbl002_easy_read": {
+    "visible": "b",
+    "spoken": [
+      "be."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  }
+}

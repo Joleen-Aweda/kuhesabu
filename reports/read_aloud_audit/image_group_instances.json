@@ -1,0 +1,167 @@
+[
+  {
+    "page": "pg009_sec001.html",
+    "text_id": "pg009_im005",
+    "instances": 2
+  },
+  {
+    "page": "pg009_sec001.html",
+    "text_id": "pg009_im006",
+    "instances": 2
+  },
+  {
+    "page": "pg009_sec001.html",
+    "text_id": "pg009_im007",
+    "instances": 2
+  },
+  {
+    "page": "pg009_sec001.html",
+    "text_id": "pg009_im008",
+    "instances": 2
+  },
+  {
+    "page": "pg009_sec001.html",
+    "text_id": "pg009_im009",
+    "instances": 2
+  },
+  {
+    "page": "pg009_sec001.html",
+    "text_id": "pg009_im013",
+    "instances": 2
+  },
+  {
+    "page": "pg009_sec001.html",
+    "text_id": "pg009_im016",
+    "instances": 3
+  },
+  {
+    "page": "pg009_sec001.html",
+    "text_id": "pg009_im017",
+    "instances": 6
+  },
+  {
+    "page": "pg044_sec001.html",
+    "text_id": "pg044_im009_crop1_crop1",
+    "instances": 5
+  },
+  {
+    "page": "pg044_sec001.html",
+    "text_id": "pg044_im010",
+    "instances": 5
+  },
+  {
+    "page": "pg044_sec001.html",
+    "text_id": "pg044_im011",
+    "instances": 2
+  },
+  {
+    "page": "pg044_sec001.html",
+    "text_id": "pg044_im012",
+    "instances": 2
+  },
+  {
+    "page": "pg044_sec001.html",
+    "text_id": "pg044_im016",
+    "instances": 3
+  },
+  {
+    "page": "pg044_sec001.html",
+    "text_id": "pg044_im017",
+    "instances": 3
+  },
+  {
+    "page": "pg074_sec001.html",
+    "text_id": "pg074_im015",
+    "instances": 2
+  },
+  {
+    "page": "pg074_sec001.html",
+    "text_id": "pg074_im016_crop1",
+    "instances": 2
+  },
+  {
+    "page": "pg074_sec001.html",
+    "text_id": "pg074_im025_crop_v1_crop1",
+    "instances": 2
+  },
+  {
+    "page": "pg077_sec001.html",
+    "text_id": "pg077_im008_seg001_v1_crop1",
+    "instances": 2
+  },
+  {
+    "page": "pg077_sec001.html",
+    "text_id": "pg077_im008_seg002_v1_crop1",
+    "instances": 2
+  },
+  {
+    "page": "pg077_sec001.html",
+    "text_id": "pg077_im008_seg003_v1_crop1",
+    "instances": 2
+  },
+  {
+    "page": "pg079_sec001.html",
+    "text_id": "pg079_im016_seg001_v1_crop1_crop1",
+    "instances": 2
+  },
+  {
+    "page": "pg079_sec001.html",
+    "text_id": "pg079_im016_seg002_v1_crop1_crop1",
+    "instances": 2
+  },
+  {
+    "page": "pg079_sec001.html",
+    "text_id": "pg079_im016_seg003_v1_crop1",
+    "instances": 2
+  },
+  {
+    "page": "pg079_sec001.html",
+    "text_id": "pg079_im016_seg004_v1_crop1_crop1",
+    "instances": 2
+  },
+  {
+    "page": "pg079_sec001.html",
+    "text_id": "pg079_im016_seg005_v1_crop1_crop1",
+    "instances": 2
+  },
+  {
+    "page": "pg080_sec002.html",
+    "text_id": "pg080_im003",
+    "instances": 2
+  },
+  {
+    "page": "pg080_sec002.html",
+    "text_id": "pg080_im004",
+    "instances": 2
+  },
+  {
+    "page": "pg080_sec002.html",
+    "text_id": "pg080_im008",
+    "instances": 2
+  },
+  {
+    "page": "pg080_sec002.html",
+    "text_id": "pg080_im009",
+    "instances": 2
+  },
+  {
+    "page": "pg080_sec002.html",
+    "text_id": "pg080_im010_crop1_crop1",
+    "instances": 2
+  },
+  {
+    "page": "pg080_sec002.html",
+    "text_id": "pg080_im011",
+    "instances": 2
+  },
+  {
+    "page": "pg080_sec002.html",
+    "text_id": "pg080_im012_crop1_crop1",
+    "instances": 2
+  },
+  {
+    "page": "pg080_sec002.html",
+    "text_id": "pg080_im014_crop1",
+    "instances": 2
+  }
+]

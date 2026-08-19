@@ -1,0 +1,1784 @@
+{
+  "pg008_n0002": {
+    "visible": "Zoezi la 1",
+    "spoken": [
+      "Zoezi la kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg008_n0010": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_n0004": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg012_n0002": {
+    "visible": "Zoezi la 3",
+    "spoken": [
+      "Zoezi la tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg013_n0002": {
+    "visible": "Zoezi la 4",
+    "spoken": [
+      "Zoezi la nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg015_n0002": {
+    "visible": "Zoezi la 6",
+    "spoken": [
+      "Zoezi la sita."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg016_n0008": {
+    "visible": "Zoezi la 1",
+    "spoken": [
+      "Zoezi la kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg016_n0011": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg017_n0002": {
+    "visible": "Zoezi la 3",
+    "spoken": [
+      "Zoezi la tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg018_n0002": {
+    "visible": "Zoezi la 4",
+    "spoken": [
+      "Zoezi la nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg019_n0009": {
+    "visible": "Zoezi la 1",
+    "spoken": [
+      "Zoezi la kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg020_n0003": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg021_n0002": {
+    "visible": "Zoezi la 3",
+    "spoken": [
+      "Zoezi la tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg021_n0013": {
+    "visible": "Zoezi la 4",
+    "spoken": [
+      "Zoezi la nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg023_n0002": {
+    "visible": "Zoezi la 6",
+    "spoken": [
+      "Zoezi la sita."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg022_n0003": {
+    "visible": "Zoezi la 5",
+    "spoken": [
+      "Zoezi la tano."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg024_n0003": {
+    "visible": "Zoezi la 7",
+    "spoken": [
+      "Zoezi la saba."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg025_n0013": {
+    "visible": "Zoezi la 1",
+    "spoken": [
+      "Zoezi la kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg025_n0061": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg026_n0002": {
+    "visible": "Zoezi la 3",
+    "spoken": [
+      "Zoezi la tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg027_n0003": {
+    "visible": "Zoezi la 4",
+    "spoken": [
+      "Zoezi la nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg028_n0017": {
+    "visible": "Zoezi la 1",
+    "spoken": [
+      "Zoezi la kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg030_n0016": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg033_n0003": {
+    "visible": "Zoezi la 3",
+    "spoken": [
+      "Zoezi la tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg034_n0008": {
+    "visible": "Zoezi la 4",
+    "spoken": [
+      "Zoezi la nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg035_n0002": {
+    "visible": "Zoezi la 5",
+    "spoken": [
+      "Zoezi la tano."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg036_n0010": {
+    "visible": "Zoezi la 6",
+    "spoken": [
+      "Zoezi la sita."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg037_n0011": {
+    "visible": "Zoezi la 7",
+    "spoken": [
+      "Zoezi la saba."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg041_n0002": {
+    "visible": "Zoezi la 1",
+    "spoken": [
+      "Zoezi la kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg038_n0029": {
+    "visible": "Zoezi la 8",
+    "spoken": [
+      "Zoezi la nane."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg043_n0005": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg045_n0003": {
+    "visible": "Zoezi la 3",
+    "spoken": [
+      "Zoezi la tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg046_n0006": {
+    "visible": "Zoezi la 4",
+    "spoken": [
+      "Zoezi la nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg048_n0003": {
+    "visible": "Zoezi la 5",
+    "spoken": [
+      "Zoezi la tano."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg049_n0003": {
+    "visible": "Zoezi la 6",
+    "spoken": [
+      "Zoezi la sita."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg050_n0032": {
+    "visible": "Zoezi la 7",
+    "spoken": [
+      "Zoezi la saba."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg052_n0011": {
+    "visible": "Zoezi la 1",
+    "spoken": [
+      "Zoezi la kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg052_n0014": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg053_n0002": {
+    "visible": "Zoezi la 3",
+    "spoken": [
+      "Zoezi la tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg054_n0002": {
+    "visible": "Zoezi la 4",
+    "spoken": [
+      "Zoezi la nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg055_n0016": {
+    "visible": "Zoezi la 5",
+    "spoken": [
+      "Zoezi la tano."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg056_n0010": {
+    "visible": "Zoezi la 6",
+    "spoken": [
+      "Zoezi la sita."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg057_n0009": {
+    "visible": "Zoezi la 7",
+    "spoken": [
+      "Zoezi la saba."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg058_n0003": {
+    "visible": "Zoezi la 8",
+    "spoken": [
+      "Zoezi la nane."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg063_n0011": {
+    "visible": "Zoezi la 1",
+    "spoken": [
+      "Zoezi la kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg059_n0003": {
+    "visible": "Zoezi la 9",
+    "spoken": [
+      "Zoezi la tisa."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg064_n0003": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg064_n0009": {
+    "visible": "Zoezi la 3",
+    "spoken": [
+      "Zoezi la tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg065_n0003": {
+    "visible": "Zoezi la 4",
+    "spoken": [
+      "Zoezi la nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg065_n0007": {
+    "visible": "Zoezi la 5",
+    "spoken": [
+      "Zoezi la tano."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg066_n0002": {
+    "visible": "Zoezi la 6",
+    "spoken": [
+      "Zoezi la sita."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg061_n0044": {
+    "visible": "Zoezi la 10",
+    "spoken": [
+      "Zoezi la kumi."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg067_n0027": {
+    "visible": "Zoezi la 1",
+    "spoken": [
+      "Zoezi la kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg068_n0002": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg069_n0003": {
+    "visible": "Zoezi la 3",
+    "spoken": [
+      "Zoezi la tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg071_n0003": {
+    "visible": "Zoezi la 1",
+    "spoken": [
+      "Zoezi la kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg071_n0020": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg072_n0003": {
+    "visible": "Zoezi la 3",
+    "spoken": [
+      "Zoezi la tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg072_n0036": {
+    "visible": "Zoezi la 4",
+    "spoken": [
+      "Zoezi la nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg073_n0006": {
+    "visible": "Zoezi la 5",
+    "spoken": [
+      "Zoezi la tano."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg073_n0010": {
+    "visible": "Zoezi la 6",
+    "spoken": [
+      "Zoezi la sita."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg073_n0013": {
+    "visible": "Zoezi la 7",
+    "spoken": [
+      "Zoezi la saba."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg074_n0011": {
+    "visible": "Zoezi la 1",
+    "spoken": [
+      "Zoezi la kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg066_im006": {
+    "visible": "Zoezi la 6: Soma namba zifuatazo kwa sauti. Jedwali la namba lenye mistari mitano: mstari wa kwanza 12, 99, 54, 20, 34, 78, 23, 67, 98, 30; mstari wa pili 88, 26, 13, 22, 50, 75, 68, 99, 57, 85; mstari wa tatu 90, 51, 44, 25, 80, 28, 40, 48, 33, 77; mstari wa nne 34, 23, 60, 76, 89, 65, 29, 35, 84, 91; mstari wa tano 99, 45, 95, 88, 15, 70, 46, 55, 67, 100.",
+    "spoken": [
+      "Zoezi la sita: Soma namba zifuatazo kwa sauti. Jedwali la namba lenye mistari mitano: mstari wa kwanza kumi na mbili, tisini na tisa, hamsini na nne, ishirini, thelathini na nne, sabini na nane, ishirini na tatu, sitini na saba, tisini na nane, thelathini; mstari wa pili themanini na nane, ishirini na sita, kumi na tatu, ishirini na mbili, hamsini, sabini na tano, sitini na nane, tisini na tisa, hamsini na saba, themanini na tano; mstari wa tatu tisini, hamsini na moja, arobaini na nne, ishirini na tano, themanini, ishirini na nane, arobaini, arobaini na nane, thelathini na tatu, sabini na saba; mstari wa nne thelathini na nne, ishirini na tatu, sitini, sabini na sita, themanini na tisa, sitini na tano, ishirini na tisa, thelathini na tano, themanini na nne, tisini na moja; mstari wa tano tisini na tisa, arobaini na tano, tisini na tano, themanini na nane, kumi na tano, sabini, arobaini na sita, hamsini na tano, sitini na saba, mia moja."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg076_n0006": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg071_im006": {
+    "visible": "Zoezi la 1: Panga namba zifuatazo kuanzia ndogo hadi kubwa zaidi kwa mfuatano; mstari wa 1 una 5, 4, 2, 3, 6, 8, 10, 9, 1; mstari wa 2 una 7, 5, 4, 6, 1, 3, 2; mstari wa 3 una 5, 9, 7, 2, 3, 4, 1, 6, 8; mstari wa 4 una 3, 5, 4, 1, 2, 7, 9, 10, 8, 6.",
+    "spoken": [
+      "Zoezi la kwanza: Panga namba zifuatazo kuanzia ndogo hadi kubwa zaidi kwa mfuatano; mstari wa moja una tano, nne, mbili, tatu, sita, nane, kumi, tisa, moja; mstari wa mbili una saba, tano, nne, sita, moja, tatu, mbili; mstari wa tatu una tano, tisa, saba, mbili, tatu, nne, moja, sita, nane; mstari wa nne una tatu, tano, nne, moja, mbili, saba, tisa, kumi, nane, sita."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg078_n0008": {
+    "visible": "Zoezi la 3",
+    "spoken": [
+      "Zoezi la tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_n0012": {
+    "visible": "Zoezi la 4",
+    "spoken": [
+      "Zoezi la nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg083_n0002": {
+    "visible": "Zoezi la 5",
+    "spoken": [
+      "Zoezi la tano."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg073_im008": {
+    "visible": "Zoezi la 7: Andika namba inayokosekana kwenye kila mfuatano. Mstari wa kwanza: 15, nafasi wazi, 17, nafasi wazi, 19, 20, nafasi wazi, 22. Mstari wa pili: nafasi wazi, 31, nafasi wazi, 33, 34, nafasi wazi, 36, 37. Mstari wa tatu: 61, nafasi wazi, 63, 64, nafasi wazi, 66, nafasi wazi, 68. Mstari wa nne: 93, 94, nafasi wazi, 96, nafasi wazi, 98, 99, nafasi wazi.",
+    "spoken": [
+      "Zoezi la saba: Andika namba inayokosekana kwenye kila mfuatano. Mstari wa kwanza: kumi na tano, nafasi wazi, kumi na saba, nafasi wazi, kumi na tisa, ishirini, nafasi wazi, ishirini na mbili. Mstari wa pili: nafasi wazi, thelathini na moja, nafasi wazi, thelathini na tatu, thelathini na nne, nafasi wazi, thelathini na sita, thelathini na saba. Mstari wa tatu: sitini na moja, nafasi wazi, sitini na tatu, sitini na nne, nafasi wazi, sitini na sita, nafasi wazi, sitini na nane. Mstari wa nne: tisini na tatu, tisini na nne, nafasi wazi, tisini na sita, nafasi wazi, tisini na nane, tisini na tisa, nafasi wazi."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg084_n0019": {
+    "visible": "Zoezi la 6",
+    "spoken": [
+      "Zoezi la sita."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg086_n0003": {
+    "visible": "Zoezi la 7",
+    "spoken": [
+      "Zoezi la saba."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg087_n0003": {
+    "visible": "Zoezi la 8",
+    "spoken": [
+      "Zoezi la nane."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg091_n0003": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg093_n0003": {
+    "visible": "Zoezi la 3",
+    "spoken": [
+      "Zoezi la tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg094_n0003": {
+    "visible": "Zoezi la 4",
+    "spoken": [
+      "Zoezi la nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg096_n0004": {
+    "visible": "Zoezi la 5",
+    "spoken": [
+      "Zoezi la tano."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg097_n0002": {
+    "visible": "Zoezi la 6",
+    "spoken": [
+      "Zoezi la sita."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg099_n0002": {
+    "visible": "Zoezi la 7",
+    "spoken": [
+      "Zoezi la saba."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg100_n0003": {
+    "visible": "Zoezi la 8",
+    "spoken": [
+      "Zoezi la nane."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg101_n0019": {
+    "visible": "Zoezi la 9",
+    "spoken": [
+      "Zoezi la tisa."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg103_n0002": {
+    "visible": "Zoezi la 10",
+    "spoken": [
+      "Zoezi la kumi."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg107_n0003": {
+    "visible": "Zoezi la 1",
+    "spoken": [
+      "Zoezi la kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg104_n0013": {
+    "visible": "Zoezi la 11",
+    "spoken": [
+      "Zoezi la kumi na moja."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg099_im006": {
+    "visible": "Zoezi la 7: Jumlisha kwa wima. Maswali 18 ya kujumlisha namba mbili mbili: 74 + 18, 34 + 48, 25 + 67, 67 + 14, 49 + 38, 45 + 18, 49 + 49, 19 + 19, 33 + 37, 37 + 49, 35 + 35, 17 + 38, 45 + 26, 65 + 27, 22 + 68, 29 + 39, 56 + 28, na 78 + 13.",
+    "spoken": [
+      "Zoezi la saba: Jumlisha kwa wima. Maswali kumi na nane ya kujumlisha namba mbili mbili: sabini na nne jumlisha kumi na nane, thelathini na nne jumlisha arobaini na nane, ishirini na tano jumlisha sitini na saba, sitini na saba jumlisha kumi na nne, arobaini na tisa jumlisha thelathini na nane, arobaini na tano jumlisha kumi na nane, arobaini na tisa jumlisha arobaini na tisa, kumi na tisa jumlisha kumi na tisa, thelathini na tatu jumlisha thelathini na saba, thelathini na saba jumlisha arobaini na tisa, thelathini na tano jumlisha thelathini na tano, kumi na saba jumlisha thelathini na nane, arobaini na tano jumlisha ishirini na sita, sitini na tano jumlisha ishirini na saba, ishirini na mbili jumlisha sitini na nane, ishirini na tisa jumlisha thelathini na tisa, hamsini na sita jumlisha ishirini na nane, na sabini na nane jumlisha kumi na tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg107_n0028": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg109_n0027": {
+    "visible": "Zoezi la 3",
+    "spoken": [
+      "Zoezi la tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg110_n0016": {
+    "visible": "Zoezi la 4",
+    "spoken": [
+      "Zoezi la nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg100_im006": {
+    "visible": "Zoezi la 8: Jumlisha kwa wima. Jedwali la maswali 18 ya kujumlisha lenye nafasi za kuandika majibu: 1) 65 + 28, 2) 26 + 47, 3) 19 + 77, 4) 17 + 28, 5) 38 + 49, 6) 9 + 74, 7) 19 + 7, 8) 36 + 34, 9) 59 + 9, 10) 55 + 8, 11) 58 + 22, 12) 25 + 8, 13) 45 + 39, 14) 89 + 1, 15) 88 + 4, 16) 77 + 22, 17) 16 + 17, 18) 77 + 8.",
+    "spoken": [
+      "Zoezi la nane: Jumlisha kwa wima. Jedwali la maswali kumi na nane ya kujumlisha lenye nafasi za kuandika majibu: moja) sitini na tano jumlisha ishirini na nane, mbili) ishirini na sita jumlisha arobaini na saba, tatu) kumi na tisa jumlisha sabini na saba, nne) kumi na saba jumlisha ishirini na nane, tano) thelathini na nane jumlisha arobaini na tisa, sita) tisa jumlisha sabini na nne, saba) kumi na tisa jumlisha saba, nane) thelathini na sita jumlisha thelathini na nne, tisa) hamsini na tisa jumlisha tisa, kumi) hamsini na tano jumlisha nane, kumi na moja) hamsini na nane jumlisha ishirini na mbili, kumi na mbili) ishirini na tano jumlisha nane, kumi na tatu) arobaini na tano jumlisha thelathini na tisa, kumi na nne) themanini na tisa jumlisha moja, kumi na tano) themanini na nane jumlisha nne, kumi na sita) sabini na saba jumlisha ishirini na mbili, kumi na saba) kumi na sita jumlisha kumi na saba, kumi na nane) sabini na saba jumlisha nane."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg113_n0025": {
+    "visible": "Zoezi la 5",
+    "spoken": [
+      "Zoezi la tano."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg114_n0003": {
+    "visible": "Zoezi la 6",
+    "spoken": [
+      "Zoezi la sita."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg116_n0008": {
+    "visible": "Zoezi la 7",
+    "spoken": [
+      "Zoezi la saba."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg117_n0023": {
+    "visible": "Zoezi la 8",
+    "spoken": [
+      "Zoezi la nane."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg119_n0003": {
+    "visible": "Zoezi la 9",
+    "spoken": [
+      "Zoezi la tisa."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg120_n0002": {
+    "visible": "Zoezi la 10",
+    "spoken": [
+      "Zoezi la kumi."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg121_n0010": {
+    "visible": "Zoezi la 11",
+    "spoken": [
+      "Zoezi la kumi na moja."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg122_n0031": {
+    "visible": "Zoezi la 12",
+    "spoken": [
+      "Zoezi la kumi na mbili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg120_im006": {
+    "visible": "Zoezi la 10 lenye maswali sita ya kutoa fedha: 1) Shilingi 50 kutoa shilingi 20, 2) shilingi 100 kutoa shilingi 20, 3) shilingi 100 kutoa shilingi 50, 4) shilingi 100 kutoa shilingi 5, 5) shilingi 100 kutoa shilingi 10, na 6) shilingi 100 kutoa shilingi 100; kila swali lina nafasi ya kuandika jibu.",
+    "spoken": [
+      "Zoezi la kumi lenye maswali sita ya kutoa fedha: moja) Shilingi hamsini kutoa shilingi ishirini, mbili) shilingi mia moja kutoa shilingi ishirini, tatu) shilingi mia moja kutoa shilingi hamsini, nne) shilingi mia moja kutoa shilingi tano, tano) shilingi mia moja kutoa shilingi kumi, na sita) shilingi mia moja kutoa shilingi mia moja; kila swali lina nafasi ya kuandika jibu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg123_n0059": {
+    "visible": "Zoezi la 13",
+    "spoken": [
+      "Zoezi la kumi na tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg125_n0014": {
+    "visible": "Zoezi la 1",
+    "spoken": [
+      "Zoezi la kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg124_n0010": {
+    "visible": "Zoezi la 14",
+    "spoken": [
+      "Zoezi la kumi na nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg126_n0002": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg127_n0022": {
+    "visible": "Zoezi la 3",
+    "spoken": [
+      "Zoezi la tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg128_n0002": {
+    "visible": "Zoezi la 4",
+    "spoken": [
+      "Zoezi la nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg129_n0002": {
+    "visible": "Zoezi la 5",
+    "spoken": [
+      "Zoezi la tano."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg008_n0002_easy_read": {
+    "visible": "Zoezi la 1",
+    "spoken": [
+      "Zoezi la kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg008_n0010_easy_read": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg010_n0008_easy_read": {
+    "visible": "Zoezi la 1",
+    "spoken": [
+      "Zoezi la kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg011_n0004_easy_read": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg012_n0002_easy_read": {
+    "visible": "Zoezi la 3",
+    "spoken": [
+      "Zoezi la tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg013_n0002_easy_read": {
+    "visible": "Zoezi la 4",
+    "spoken": [
+      "Zoezi la nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg016_n0008_easy_read": {
+    "visible": "Zoezi la 1",
+    "spoken": [
+      "Zoezi la kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg016_n0011_easy_read": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg017_n0002_easy_read": {
+    "visible": "Zoezi la 3",
+    "spoken": [
+      "Zoezi la tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg018_n0002_easy_read": {
+    "visible": "Zoezi la 4",
+    "spoken": [
+      "Zoezi la nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg020_n0003_easy_read": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg021_n0002_easy_read": {
+    "visible": "Zoezi la 3",
+    "spoken": [
+      "Zoezi la tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg021_n0013_easy_read": {
+    "visible": "Zoezi la 4",
+    "spoken": [
+      "Zoezi la nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg022_n0003_easy_read": {
+    "visible": "Zoezi la 5",
+    "spoken": [
+      "Zoezi la tano."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg025_n0013_easy_read": {
+    "visible": "Zoezi la 1",
+    "spoken": [
+      "Zoezi la kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg025_n0061_easy_read": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg026_n0002_easy_read": {
+    "visible": "Zoezi la 3",
+    "spoken": [
+      "Zoezi la tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg027_n0003_easy_read": {
+    "visible": "Zoezi la 4",
+    "spoken": [
+      "Zoezi la nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg028_n0017_easy_read": {
+    "visible": "Zoezi la 1",
+    "spoken": [
+      "Zoezi la kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg030_n0016_easy_read": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg033_n0003_easy_read": {
+    "visible": "Zoezi la 3",
+    "spoken": [
+      "Zoezi la tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg034_n0008_easy_read": {
+    "visible": "Zoezi la 4",
+    "spoken": [
+      "Zoezi la nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg035_n0002_easy_read": {
+    "visible": "Zoezi la 5",
+    "spoken": [
+      "Zoezi la tano."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg036_n0010_easy_read": {
+    "visible": "Zoezi la 6",
+    "spoken": [
+      "Zoezi la sita."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg037_n0011_easy_read": {
+    "visible": "Zoezi la 7",
+    "spoken": [
+      "Zoezi la saba."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg038_n0029_easy_read": {
+    "visible": "Zoezi la 8",
+    "spoken": [
+      "Zoezi la nane."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg041_n0002_easy_read": {
+    "visible": "Zoezi la 1",
+    "spoken": [
+      "Zoezi la kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg043_n0005_easy_read": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg045_n0003_easy_read": {
+    "visible": "Zoezi la 3",
+    "spoken": [
+      "Zoezi la tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg046_n0006_easy_read": {
+    "visible": "Zoezi la 4",
+    "spoken": [
+      "Zoezi la nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg048_n0003_easy_read": {
+    "visible": "Zoezi la 5",
+    "spoken": [
+      "Zoezi la tano."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg049_n0003_easy_read": {
+    "visible": "Zoezi la 6",
+    "spoken": [
+      "Zoezi la sita."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg050_n0032_easy_read": {
+    "visible": "Zoezi la 7",
+    "spoken": [
+      "Zoezi la saba."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg052_n0011_easy_read": {
+    "visible": "Zoezi la 1",
+    "spoken": [
+      "Zoezi la kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg052_n0014_easy_read": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg053_n0002_easy_read": {
+    "visible": "Zoezi la 3",
+    "spoken": [
+      "Zoezi la tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg054_n0002_easy_read": {
+    "visible": "Zoezi la 4",
+    "spoken": [
+      "Zoezi la nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg055_n0016_easy_read": {
+    "visible": "Zoezi la 5",
+    "spoken": [
+      "Zoezi la tano."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg056_n0010_easy_read": {
+    "visible": "Zoezi la 6",
+    "spoken": [
+      "Zoezi la sita."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg057_n0009_easy_read": {
+    "visible": "Zoezi la 7",
+    "spoken": [
+      "Zoezi la saba."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg058_n0003_easy_read": {
+    "visible": "Zoezi la 8",
+    "spoken": [
+      "Zoezi la nane."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg059_n0003_easy_read": {
+    "visible": "Zoezi la 9",
+    "spoken": [
+      "Zoezi la tisa."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg061_n0044_easy_read": {
+    "visible": "Zoezi la 10",
+    "spoken": [
+      "Zoezi la kumi."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg063_n0011_easy_read": {
+    "visible": "Zoezi la 1",
+    "spoken": [
+      "Zoezi la kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg064_n0003_easy_read": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg064_n0009_easy_read": {
+    "visible": "Zoezi la 3",
+    "spoken": [
+      "Zoezi la tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg065_n0003_easy_read": {
+    "visible": "Zoezi la 4",
+    "spoken": [
+      "Zoezi la nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg065_n0007_easy_read": {
+    "visible": "Zoezi la 5",
+    "spoken": [
+      "Zoezi la tano."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg067_n0027_easy_read": {
+    "visible": "Zoezi la 1",
+    "spoken": [
+      "Zoezi la kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg068_n0002_easy_read": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg071_n0003_easy_read": {
+    "visible": "Zoezi la 1",
+    "spoken": [
+      "Zoezi la kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg071_n0020_easy_read": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg072_n0003_easy_read": {
+    "visible": "Zoezi la 3",
+    "spoken": [
+      "Zoezi la tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg072_n0036_easy_read": {
+    "visible": "Zoezi la 4",
+    "spoken": [
+      "Zoezi la nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg073_n0006_easy_read": {
+    "visible": "Zoezi la 5",
+    "spoken": [
+      "Zoezi la tano."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg073_n0010_easy_read": {
+    "visible": "Zoezi la 6",
+    "spoken": [
+      "Zoezi la sita."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg073_n0013_easy_read": {
+    "visible": "Zoezi la 7",
+    "spoken": [
+      "Zoezi la saba."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg074_n0011_easy_read": {
+    "visible": "Zoezi la 1",
+    "spoken": [
+      "Zoezi la kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg076_n0006_easy_read": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg078_n0008_easy_read": {
+    "visible": "Zoezi la 3",
+    "spoken": [
+      "Zoezi la tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg080_n0012_easy_read": {
+    "visible": "Zoezi la 4",
+    "spoken": [
+      "Zoezi la nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg083_n0002_easy_read": {
+    "visible": "Zoezi la 5",
+    "spoken": [
+      "Zoezi la tano."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg084_n0019_easy_read": {
+    "visible": "Zoezi la 6",
+    "spoken": [
+      "Zoezi la sita."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg086_n0003_easy_read": {
+    "visible": "Zoezi la 7",
+    "spoken": [
+      "Zoezi la saba."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg087_n0003_easy_read": {
+    "visible": "Zoezi la 8",
+    "spoken": [
+      "Zoezi la nane."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg090_n0003_easy_read": {
+    "visible": "Zoezi la 1",
+    "spoken": [
+      "Zoezi la kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg091_n0003_easy_read": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg093_n0003_easy_read": {
+    "visible": "Zoezi la 3",
+    "spoken": [
+      "Zoezi la tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg094_n0003_easy_read": {
+    "visible": "Zoezi la 4",
+    "spoken": [
+      "Zoezi la nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg096_n0004_easy_read": {
+    "visible": "Zoezi la 5",
+    "spoken": [
+      "Zoezi la tano."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg097_n0002_easy_read": {
+    "visible": "Zoezi la 6",
+    "spoken": [
+      "Zoezi la sita."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg099_n0002_easy_read": {
+    "visible": "Zoezi la 7",
+    "spoken": [
+      "Zoezi la saba."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg100_n0003_easy_read": {
+    "visible": "Zoezi la 8",
+    "spoken": [
+      "Zoezi la nane."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg101_n0019_easy_read": {
+    "visible": "Zoezi la 9",
+    "spoken": [
+      "Zoezi la tisa."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg103_n0002_easy_read": {
+    "visible": "Zoezi la 10",
+    "spoken": [
+      "Zoezi la kumi."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg107_n0003_easy_read": {
+    "visible": "Zoezi la 1",
+    "spoken": [
+      "Zoezi la kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg107_n0028_easy_read": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg109_n0027_easy_read": {
+    "visible": "Zoezi la 3",
+    "spoken": [
+      "Zoezi la tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg110_n0016_easy_read": {
+    "visible": "Zoezi la 4",
+    "spoken": [
+      "Zoezi la nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg113_n0025_easy_read": {
+    "visible": "Zoezi la 5",
+    "spoken": [
+      "Zoezi la tano."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg114_n0003_easy_read": {
+    "visible": "Zoezi la 6",
+    "spoken": [
+      "Zoezi la sita."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg116_n0008_easy_read": {
+    "visible": "Zoezi la 7",
+    "spoken": [
+      "Zoezi la saba."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg117_n0023_easy_read": {
+    "visible": "Zoezi la 8",
+    "spoken": [
+      "Zoezi la nane."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg119_n0003_easy_read": {
+    "visible": "Zoezi la 9",
+    "spoken": [
+      "Zoezi la tisa."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg120_n0002_easy_read": {
+    "visible": "Zoezi la 10",
+    "spoken": [
+      "Zoezi la kumi."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg121_n0010_easy_read": {
+    "visible": "Zoezi la 11",
+    "spoken": [
+      "Zoezi la kumi na moja."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg122_n0031_easy_read": {
+    "visible": "Zoezi la 12",
+    "spoken": [
+      "Zoezi la kumi na mbili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg123_n0059_easy_read": {
+    "visible": "Zoezi la 13",
+    "spoken": [
+      "Zoezi la kumi na tatu."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg124_n0010_easy_read": {
+    "visible": "Zoezi la 14",
+    "spoken": [
+      "Zoezi la kumi na nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg125_n0014_easy_read": {
+    "visible": "Zoezi la 1",
+    "spoken": [
+      "Zoezi la kwanza."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg126_n0002_easy_read": {
+    "visible": "Zoezi la 2",
+    "spoken": [
+      "Zoezi la pili."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg128_n0002_easy_read": {
+    "visible": "Zoezi la 4",
+    "spoken": [
+      "Zoezi la nne."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  },
+  "pg129_n0002_easy_read": {
+    "visible": "Zoezi la 5",
+    "spoken": [
+      "Zoezi la tano."
+    ],
+    "voices": [
+      "sw-TZ-DaudiNeural"
+    ]
+  }
+}
