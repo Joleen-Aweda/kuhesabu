@@ -10,10 +10,15 @@ import re
 import subprocess
 import tempfile
 from collections import defaultdict
+from io import BytesIO
 from pathlib import Path
 
-import pymupdf
 from lxml import html
+from pypdf import PdfReader, PdfWriter
+from reportlab.lib.colors import HexColor
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
+from reportlab.pdfgen import canvas
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -36,6 +41,46 @@ SKIP_IDS = {
     "pg126_n0029",
     "pg131_n0074",
     "pg132_n0113",
+}
+
+# These inclusive words were added to the narration after the source PDF was
+# published. Replace the shorter printed instruction with the complete spoken
+# sentence in the same location. The visual mirror is aria-hidden because the
+# sentence is already present in the semantic read-aloud layer.
+VISIBLE_AUDIO_SENTENCES = {
+    8: (
+        ("pg008_n0003", "Chunguza, gusa au sikiliza maelezo, kisha tambua fungu lenye vitu vichache katika ulalo.", 87, 116, 395, 27, "#ffffff", 19.0, 16.0),
+        ("pg008_n0011", "Chunguza, gusa au sikiliza maelezo, kisha tambua kundi lenye vitu vingi katika ulalo.", 87, 457, 395, 27, "#ffffff", 19.0, 16.0),
+    ),
+    10: (("pg010_n0009", "Chunguza, gusa au sikiliza maelezo, kisha hesabu picha kisha tamka namba kwa kuonesha idadi ya vidole.", 87, 306, 395, 50, "#ffffff", 17.5, 19.0),),
+    11: (("pg011_n0006", "Chunguza, gusa au sikiliza maelezo, kisha hesabu picha kisha tamka namba kwa kuonesha idadi ya vidole.", 99, 242, 380, 50, "#ffffff", 19.0, 18.5),),
+    12: (("pg012_n0003", "Chunguza, gusa au sikiliza maelezo, kisha hesabu vitu vilivyopo katika kila mstari kisha taja idadi.", 87, 126, 395, 50, "#ffffff", 19.0, 21.0),),
+    13: (("pg013_n0003", "Chunguza, gusa au sikiliza maelezo, kisha hesabu matunda yafuatayo kisha tamka namba inayowakilisha idadi.", 100, 128, 382, 50, "#ffffff", 19.0, 18.0),),
+    15: (("pg015_n0003", "Chunguza, gusa au sikiliza maelezo, kisha hesabu matunda katika kila mstari kisha andika idadi yake.", 100, 128, 382, 50, "#ffffff", 19.0, 18.0),),
+    24: (("pg024_n0004", "Chunguza, gusa au sikiliza maelezo, kisha hesabu kila aina ya tunda kisha andika idadi yake.", 87, 124, 395, 50, "#ffffff", 19.0, 21.0),),
+    30: (("pg030_n0017", "Chunguza, gusa au sikiliza maelezo, kisha hesabu vitu kisha andika idadi yake kwenye nafasi iliyo wazi.", 87, 510, 395, 50, "#ffffff", 18.0, 20.0),),
+    63: (("pg063_n0012", "Soma, onyesha au wasilisha namba zifuatazo za maneno.", 96, 351, 395, 27, "#ffffff", 16.9, 18.0),),
+    64: (
+        ("pg064_n0004", "Soma, onyesha au wasilisha namba zifuatazo.", 86, 122, 395, 27, "#ffffff", 17.7, 20.0),
+        ("pg064_n0010", "Soma, onyesha au wasilisha namba zifuatazo.", 82, 482, 395, 27, "#ffffff", 19.0, 21.0),
+    ),
+    78: (("pg078_n0010", "Chunguza, gusa au sikiliza maelezo, kisha hesabu vitu kisha soma namba katika makumi na mamoja.", 87, 369, 395, 50, "#ffffff", 19.0, 21.0),),
+    80: (
+        ("pg080_n0007", "Chunguza, gusa au sikiliza maelezo, kisha hesabu vitu kisha jaza nafasi zilizo wazi.", 87, 228, 375, 27, "#e6f6f4", 18.0, 17.0),
+        ("pg080_n0013", "Chunguza, gusa au sikiliza maelezo, kisha hesabu vitu kisha jaza tarakimu za makumi na mamoja.", 87, 429, 386, 50, "#ffffff", 19.0, 21.0),
+    ),
+    125: (("pg125_n0016", "Chunguza, gusa au sikiliza maelezo ya maumbo bapa yafuatayo kisha soma majina yake.", 102, 432, 382, 50, "#ffffff", 19.0, 21.0),),
+    129: (("pg129_n0003", "Chunguza, gusa au sikiliza maelezo ya maumbo yafuatayo, kisha andika herufi zote zinazoonesha maumbo bapa.", 102, 123, 392, 50, "#ffffff", 19.0, 21.0),),
+}
+
+VISIBLE_SENTENCE_TEXT_OFFSETS = {
+    "pg008_n0003": -5.0,
+    "pg008_n0011": -5.0,
+    "pg011_n0006": -2.0,
+    "pg013_n0003": -5.0,
+    "pg015_n0003": -5.0,
+    "pg030_n0017": -3.0,
+    "pg080_n0007": -6.0,
 }
 
 DEFAULT_PDFTOCAIRO = Path(
@@ -744,6 +789,65 @@ def accessible_layer(items: list[dict], page_number: int) -> str:
     )
 
 
+def wrap_sassoon_text(text: str, font_size: float, width: float) -> list[str]:
+    lines: list[str] = []
+    current = ""
+    for word in text.split():
+        candidate = f"{current} {word}".strip()
+        if current and pdfmetrics.stringWidth(candidate, "ADT Sassoon Primary", font_size) > width:
+            lines.append(current)
+            current = word
+        else:
+            current = candidate
+    if current:
+        lines.append(current)
+    return lines
+
+
+def page_with_visible_audio_sentences(pdf: Path, page_number: int, output: Path) -> None:
+    """Replace the shorter printed instruction with its complete spoken sentence."""
+    if "ADT Sassoon Primary" not in pdfmetrics.getRegisteredFontNames():
+        pdfmetrics.registerFont(
+            TTFont("ADT Sassoon Primary", ROOT / "assets/fonts/SassoonPrimary-subset.ttf")
+        )
+
+    reader = PdfReader(pdf)
+    page = reader.pages[page_number - 1]
+    page_width = float(page.mediabox.width)
+    page_height = float(page.mediabox.height)
+    overlay_bytes = BytesIO()
+    overlay = canvas.Canvas(overlay_bytes, pagesize=(page_width, page_height))
+
+    for (
+        text_id,
+        sentence,
+        x,
+        y,
+        width,
+        cover_height,
+        background,
+        font_size,
+        leading,
+    ) in VISIBLE_AUDIO_SENTENCES[page_number]:
+        overlay.setFillColor(HexColor(background))
+        overlay.rect(x, page_height - y - cover_height, width, cover_height, stroke=0, fill=1)
+        overlay.setFillColor(HexColor("#231f20"))
+        overlay.setFont("ADT Sassoon Primary", font_size)
+        text_y = y + VISIBLE_SENTENCE_TEXT_OFFSETS.get(text_id, 0.0)
+        baseline = page_height - text_y - (font_size * 0.88)
+        for line in wrap_sassoon_text(sentence, font_size, width):
+            overlay.drawString(x, baseline, line)
+            baseline -= leading
+
+    overlay.save()
+    overlay_bytes.seek(0)
+    page.merge_page(PdfReader(overlay_bytes).pages[0])
+    writer = PdfWriter()
+    writer.add_page(page)
+    with output.open("wb") as handle:
+        writer.write(handle)
+
+
 def faithful_css() -> str:
     return """/* PDF-faithful page canvas with an independent accessible reading layer. */
 html { background: #dbe3e8; }
@@ -848,16 +952,22 @@ def page_html(page_number: int, svg: str, items: list[dict]) -> str:
 def poppler_svg(pdftocairo: Path, pdf: Path, page_number: int) -> str:
     """Convert one PDF page to browser-safe SVG while preserving vector layout."""
     with tempfile.TemporaryDirectory(prefix="kuhesabu-svg-") as temp_dir:
+        render_pdf = pdf
+        render_page = page_number
+        if page_number in VISIBLE_AUDIO_SENTENCES:
+            render_pdf = Path(temp_dir) / f"page-{page_number:03d}-with-sentences.pdf"
+            page_with_visible_audio_sentences(pdf, page_number, render_pdf)
+            render_page = 1
         output = Path(temp_dir) / f"page-{page_number:03d}.svg"
         subprocess.run(
             [
                 str(pdftocairo),
                 "-f",
-                str(page_number),
+                str(render_page),
                 "-l",
-                str(page_number),
+                str(render_page),
                 "-svg",
-                str(pdf),
+                str(render_pdf),
                 str(output),
             ],
             check=True,
@@ -925,9 +1035,9 @@ def main() -> None:
         raise ValueError("Pages must be between 1 and 132")
 
     (ROOT / "content/page-faithful.css").write_text(faithful_css(), encoding="utf-8")
-    document = pymupdf.open(args.pdf)
-    if len(document) != 132:
-        raise RuntimeError(f"Expected 132 PDF pages, found {len(document)}")
+    document = PdfReader(args.pdf)
+    if len(document.pages) != 132:
+        raise RuntimeError(f"Expected 132 PDF pages, found {len(document.pages)}")
     for page_number in range(first, last + 1):
         svg = poppler_svg(args.pdftocairo, args.pdf, page_number)
         output = ROOT / ("index.html" if page_number == 1 else f"pg{page_number:03d}_sec001.html")
