@@ -11,7 +11,7 @@ from collections import Counter, defaultdict
 from html.parser import HTMLParser
 from pathlib import Path
 
-from regenerate_tanzanian_audio import LANGS, ROOT, speech_segments
+from regenerate_tanzanian_audio import DEFAULT_VOICE, LANGS, ROOT, speech_segments
 
 
 class BundleParser(HTMLParser):
@@ -123,7 +123,16 @@ def main() -> None:
     all_ids = sorted(sw_audios)
     for text_id in all_ids:
         visible = sw_texts[text_id]
-        spoken = " | ".join(segment.text for segment in speech_segments(text_id, visible))
+        segments = speech_segments(text_id, visible)
+        spoken = " | ".join(segment.text for segment in segments)
+        unexpected_voices = {
+            segment.voice for segment in segments
+            if segment.voice not in {DEFAULT_VOICE, "silence"}
+        }
+        if unexpected_voices:
+            errors.append(
+                f"{text_id}: non-Daudi speech voices: {sorted(unexpected_voices)}"
+            )
         tests = {
             "answer_field_removed": r"\[\[blank:",
             "abbreviation_expanded": r"\b(?:Dkt|Bw|Bi|Prof|Na)\.",

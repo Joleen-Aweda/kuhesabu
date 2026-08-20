@@ -21,7 +21,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_VOICE = "sw-TZ-DaudiNeural"
-ENGLISH_VOICE = "en-TZ-ElimuNeural"
+# Retained as an import-compatible alias for older audit tooling. Every spoken
+# segment now uses Daudi, including acronyms, URLs, and email addresses.
+ENGLISH_VOICE = DEFAULT_VOICE
 DEFAULT_RATE = "-5%"
 LANGS = ("sw", "sw-TZ")
 
@@ -99,7 +101,7 @@ def ordinal_to_swahili(value: int) -> str:
 
 
 def spell_english_token(token: str) -> str:
-    """Make English/acronym/Internet spans explicit for an English voice."""
+    """Make English/acronym/Internet spans explicit for Daudi."""
     stripped = token.strip()
     if stripped.upper().startswith("ISBN"):
         digits = re.sub(r"\D", "", stripped.split(":", 1)[-1])
@@ -226,7 +228,7 @@ def toc_page_spoken(text_id: str) -> str | None:
 
 
 def speech_segments(text_id: str, text: str) -> tuple[SpeechSegment, ...]:
-    """Split mixed-language content and return its independent speech segments."""
+    """Transform content into speech segments that all use Daudi."""
     page_narration = toc_page_spoken(text_id)
     if page_narration:
         return (SpeechSegment(DEFAULT_VOICE, page_narration),)
@@ -248,11 +250,8 @@ def speech_segments(text_id: str, text: str) -> tuple[SpeechSegment, ...]:
         before = spoken_swahili(stripped[cursor:match.start()])
         if before and re.search(r"[\wÀ-ÿ]", before):
             segments.append(SpeechSegment(DEFAULT_VOICE, before))
-        # Page 2 is intentionally a single-voice reading. ISBN tokens also use
-        # Daudi so every digit is pronounced with its Swahili number name.
         token = match.group(0)
-        voice = DEFAULT_VOICE if text_id.startswith("pg002_") or token.upper().startswith("ISBN") else ENGLISH_VOICE
-        segments.append(SpeechSegment(voice, spell_english_token(token)))
+        segments.append(SpeechSegment(DEFAULT_VOICE, spell_english_token(token)))
         cursor = match.end()
     tail = spoken_swahili(stripped[cursor:])
     if tail and re.search(r"[\wÀ-ÿ]", tail):
@@ -294,7 +293,6 @@ async def main() -> None:
         raise SystemExit("edge-tts is required only when generating new audio clips") from error
     parser = argparse.ArgumentParser()
     parser.add_argument("--voice", default=DEFAULT_VOICE)
-    parser.add_argument("--english-voice", default=ENGLISH_VOICE)
     parser.add_argument("--rate", default=DEFAULT_RATE)
     parser.add_argument("--concurrency", type=int, default=16)
     parser.add_argument("--limit", type=int)
@@ -345,7 +343,7 @@ async def main() -> None:
             if await process.wait() != 0:
                 raise RuntimeError("ffmpeg failed while creating a silent answer-field clip")
             return
-        voice = args.voice if segment.voice == DEFAULT_VOICE else args.english_voice
+        voice = args.voice
         error: Exception | None = None
         for attempt in range(4):
             try:
