@@ -26,13 +26,13 @@ DEFAULT_RATE = "-5%"
 LANGS = ("sw", "sw-TZ")
 
 TOC_PAGE_NUMBERS = {
-    "pg003_n0006": 4, "pg003_n0009": 5, "pg003_n0014": 6,
-    "pg003_n0019": 10, "pg003_n0024": 16, "pg003_n0029": 20,
-    "pg003_n0034": 28, "pg003_n0039": 34, "pg003_n0044": 60,
-    "pg003_n0049": 75, "pg004_n0006": 92, "pg004_n0010": 98,
-    "pg004_n0014": 104, "pg004_n0018": 112, "pg004_n0022": 133,
-    "pg004_n0026": 163, "pg004_n0030": 196, "pg004_n0034": 204,
-    "pg004_n0036": 205, "pg004_n0038": 207,
+    "pg003_n0006": 5, "pg003_n0009": 6, "pg003_n0014": 1,
+    "pg003_n0019": 4, "pg003_n0024": 10, "pg003_n0029": 13,
+    "pg003_n0034": 19, "pg003_n0039": 22, "pg003_n0044": 35,
+    "pg003_n0049": 46, "pg004_n0006": 57, "pg004_n0010": 61,
+    "pg004_n0014": 64, "pg004_n0018": 68, "pg004_n0022": 82,
+    "pg004_n0026": 100, "pg004_n0030": 119, "pg004_n0034": 124,
+    "pg004_n0036": 125, "pg004_n0038": 126,
 }
 
 ONES = (
@@ -60,7 +60,7 @@ ENGLISH_ACRONYMS = {"KDE", "ISBN", "QR", "USB", "OK", "TET", "UDSM", "UDOM", "SQ
 BLANK_TOKEN = re.compile(r"\[\[blank:[^]]+\]\]", re.IGNORECASE)
 URL_OR_EMAIL = re.compile(
     r"https?://[^\s,;]+|\b[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}\b|"
-    r"\b(?:ol\.)?tie\.go\.tz(?:/[^\s,;]+)?|"
+    r"\b(?:(?:www|ol)\.)?tie\.go\.tz(?:/[^\s,;]+)?|"
     r"\b(?:ISBN\s*:\s*[0-9-]+|FOR ONLINE READING ONLY|Room to Read)\b",
     re.IGNORECASE,
 )
@@ -103,7 +103,7 @@ def spell_english_token(token: str) -> str:
     stripped = token.strip()
     if stripped.upper().startswith("ISBN"):
         digits = re.sub(r"\D", "", stripped.split(":", 1)[-1])
-        return "I S B N, " + ", ".join(digits)
+        return "I S B N, " + ", ".join(ONES[int(digit)] for digit in digits)
     if re.match(r"https?://", stripped, re.I):
         value = re.sub(r"^https", "H T T P S", stripped, flags=re.I)
         value = re.sub(r"^http", "H T T P", value, flags=re.I)
@@ -114,8 +114,9 @@ def spell_english_token(token: str) -> str:
         value = re.sub(r"\bgo\b", "G O", value, flags=re.I)
         value = re.sub(r"\btz\b", "T Z", value, flags=re.I)
         return re.sub(r"\s+", " ", value).strip()
-    if re.match(r"(?:ol\.)?tie\.go\.tz", stripped, re.I):
+    if re.match(r"(?:(?:www|ol)\.)?tie\.go\.tz", stripped, re.I):
         value = stripped.replace("/", " slash ").replace(".", " dot ").replace("-", " hyphen ")
+        value = re.sub(r"\bwww\b", "W W W", value, flags=re.I)
         value = re.sub(r"\bol\b", "O L", value, flags=re.I)
         value = re.sub(r"\btie\b", "T I E", value, flags=re.I)
         value = re.sub(r"\bgo\b", "G O", value, flags=re.I)
@@ -123,6 +124,9 @@ def spell_english_token(token: str) -> str:
         return re.sub(r"\s+", " ", value).strip()
     if "@" in stripped:
         value = stripped.replace("@", " at ").replace(".", " dot ").replace("-", " hyphen ")
+        value = re.sub(r"\btie\b", "T I E", value, flags=re.I)
+        value = re.sub(r"\bgo\b", "G O", value, flags=re.I)
+        value = re.sub(r"\btz\b", "T Z", value, flags=re.I)
         return re.sub(r"\s+", " ", value).strip()
     if stripped.upper() in ENGLISH_ACRONYMS:
         return " ".join(stripped.upper())
@@ -222,7 +226,11 @@ def speech_segments(text_id: str, text: str) -> tuple[SpeechSegment, ...]:
         before = spoken_swahili(stripped[cursor:match.start()])
         if before and re.search(r"[\wÀ-ÿ]", before):
             segments.append(SpeechSegment(DEFAULT_VOICE, before))
-        segments.append(SpeechSegment(ENGLISH_VOICE, spell_english_token(match.group(0))))
+        # Page 2 is intentionally a single-voice reading. ISBN tokens also use
+        # Daudi so every digit is pronounced with its Swahili number name.
+        token = match.group(0)
+        voice = DEFAULT_VOICE if text_id.startswith("pg002_") or token.upper().startswith("ISBN") else ENGLISH_VOICE
+        segments.append(SpeechSegment(voice, spell_english_token(token)))
         cursor = match.end()
     tail = spoken_swahili(stripped[cursor:])
     if tail and re.search(r"[\wÀ-ÿ]", tail):
