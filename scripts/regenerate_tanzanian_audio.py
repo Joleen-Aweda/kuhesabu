@@ -200,6 +200,23 @@ def spoken_swahili(text: str) -> str:
     return spoken
 
 
+def page_two_spoken(text: str) -> str:
+    """Prepare one uninterrupted Daudi utterance for a page-two text item."""
+    stripped = BLANK_TOKEN.sub(" ", text).strip()
+    parts: list[str] = []
+    cursor = 0
+    for match in SPECIAL_ENGLISH.finditer(stripped):
+        before = spoken_swahili(stripped[cursor:match.start()])
+        if before:
+            parts.append(before)
+        parts.append(spell_english_token(match.group(0)))
+        cursor = match.end()
+    tail = spoken_swahili(stripped[cursor:])
+    if tail:
+        parts.append(tail)
+    return re.sub(r"\s+", " ", " ".join(parts)).strip()
+
+
 def toc_page_spoken(text_id: str) -> str | None:
     base_id = text_id[:-10] if text_id.endswith("_easy_read") else text_id
     page_number = TOC_PAGE_NUMBERS.get(base_id)
@@ -216,6 +233,11 @@ def speech_segments(text_id: str, text: str) -> tuple[SpeechSegment, ...]:
     stripped = BLANK_TOKEN.sub(" ", text).strip()
     if not re.search(r"[\wÀ-ÿ]", stripped):
         return (SpeechSegment("silence", ""),)
+    if text_id.startswith("pg002_"):
+        transformed = page_two_spoken(stripped)
+        if transformed and transformed[-1] not in ".!?":
+            transformed += "."
+        return (SpeechSegment(DEFAULT_VOICE, transformed),)
     if stripped.lower().rstrip(".):") in LIST_LETTERS and len(stripped) <= 3:
         key = stripped.lower().rstrip(".):")
         return (SpeechSegment(DEFAULT_VOICE, LIST_LETTERS[key] + "."),)
