@@ -36,6 +36,7 @@ TOC_PAGE_NUMBERS = {
     "pg004_n0026": 100, "pg004_n0030": 119, "pg004_n0034": 124,
     "pg004_n0036": 125, "pg004_n0038": 126,
 }
+TOC_ROMAN_PAGE_NUMBERS = {"pg003_n0006": 5, "pg003_n0009": 6}
 
 ONES = (
     "sifuri", "moja", "mbili", "tatu", "nne", "tano", "sita", "saba",
@@ -103,6 +104,9 @@ def ordinal_to_swahili(value: int) -> str:
 def spell_english_token(token: str) -> str:
     """Make English/acronym/Internet spans explicit for Daudi."""
     stripped = token.strip()
+    if stripped.upper() == "TET":
+        # This acronym is conventionally pronounced as one Swahili word.
+        return "teti"
     if stripped.upper().startswith("ISBN"):
         digits = re.sub(r"\D", "", stripped.split(":", 1)[-1])
         return "I S B N, " + ", ".join(ONES[int(digit)] for digit in digits)
@@ -198,6 +202,9 @@ def spoken_swahili(text: str) -> str:
 
     spoken = re.sub(r"(?<![\w])\d{1,6}(?:,\d{3})*(?![\w])", replace_number, spoken)
     spoken = re.sub(r"\bTEHAMA\b", "tehama", spoken, flags=re.I)
+    # Separate the syllables after operator expansion so the hyphen remains a
+    # pronunciation cue and is not interpreted as subtraction.
+    spoken = re.sub(r"\bpasi\b", "pa-si", spoken, flags=re.I)
     spoken = re.sub(r"\s+", " ", spoken).strip(" ,")
     return spoken
 
@@ -205,6 +212,9 @@ def spoken_swahili(text: str) -> str:
 def page_two_spoken(text: str) -> str:
     """Prepare one uninterrupted Daudi utterance for a page-two text item."""
     stripped = BLANK_TOKEN.sub(" ", text).strip()
+    # The slash between the two telephone numbers is punctuation, not a
+    # division operator. Name the mark so the contact line is unambiguous.
+    stripped = re.sub(r"(?<=\d)\s*/\s*(?=\+?\d)", " alama ya mkato ", stripped)
     parts: list[str] = []
     cursor = 0
     for match in SPECIAL_ENGLISH.finditer(stripped):
@@ -224,6 +234,8 @@ def toc_page_spoken(text_id: str) -> str | None:
     page_number = TOC_PAGE_NUMBERS.get(base_id)
     if page_number is None:
         return None
+    if base_id in TOC_ROMAN_PAGE_NUMBERS:
+        return f"namba {number_to_swahili(page_number)} ya Kirumi"
     return f"ukurasa wa {ordinal_to_swahili(page_number) if page_number == 1 else number_to_swahili(page_number)}"
 
 
