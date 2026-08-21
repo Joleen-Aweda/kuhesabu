@@ -1720,9 +1720,9 @@
     ]
   },
   "pg013_im006_crop1": {
-    "visible": "Mapera manane.",
+    "visible": "Mapera nane.",
     "spoken_segments": [
-      "Mapera manane."
+      "Mapera nane."
     ],
     "voices": [
       "sw-TZ-DaudiNeural"

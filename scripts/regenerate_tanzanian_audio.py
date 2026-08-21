@@ -38,6 +38,36 @@ TOC_PAGE_NUMBERS = {
 }
 TOC_ROMAN_PAGE_NUMBERS = {"pg003_n0006": 5, "pg003_n0009": 6}
 
+PAGE_THIRTEEN_COLUMN_SPEECH = {
+    "pg013_n0008": "moja ya numerali",
+    "pg013_n0010": "moja ya maneno",
+    "pg013_n0014": "mbili ya numerali",
+    "pg013_n0016": "mbili ya maneno",
+    "pg013_n0020": "tatu ya numerali",
+    "pg013_n0022": "tatu ya maneno",
+    "pg013_n0026": "nne ya numerali",
+    "pg013_n0028": "nne ya maneno",
+    "pg013_n0032": "tano ya numerali",
+    "pg013_n0034": "tano ya maneno",
+    "pg013_n0038": "sita ya numerali",
+    "pg013_n0040": "sita ya maneno",
+    "pg013_n0044": "saba ya numerali",
+    "pg013_n0046": "saba ya maneno",
+    "pg013_n0050": "nane ya numerali",
+    "pg013_n0052": "nane ya maneno",
+    "pg013_n0056": "tisa ya numerali",
+    "pg013_n0058": "tisa ya maneno",
+}
+
+PAGE_THIRTY_NINE_EQUATION_SPEECH = {
+    "pg039_n0004": "Tatu jumlisha dashi ni sawa na tano.",
+    "pg039_n0007": "Moja jumlisha dashi ni sawa na nane.",
+    "pg039_n0010": "Saba jumlisha dashi ni sawa na tisa.",
+    "pg039_n0013": "Mbili jumlisha dashi ni sawa na nne.",
+    "pg039_n0016": "Nne jumlisha dashi ni sawa na saba.",
+    "pg039_n0019": "Sita jumlisha dashi ni sawa na tisa.",
+}
+
 ONES = (
     "sifuri", "moja", "mbili", "tatu", "nne", "tano", "sita", "saba",
     "nane", "tisa",
@@ -241,12 +271,66 @@ def toc_page_spoken(text_id: str) -> str | None:
 
 def speech_segments(text_id: str, text: str) -> tuple[SpeechSegment, ...]:
     """Transform content into speech segments that all use Daudi."""
+    base_id = text_id[:-10] if text_id.endswith("_easy_read") else text_id
+    if base_id == "pg129_im018_seg009_v1_crop_v1_crop1":
+        # In this lettered shape exercise, lowercase "i" is an alphabet
+        # label.  Bypass the general Roman-numeral conversion, which would
+        # otherwise turn "Herufi i" into "Herufi moja".
+        narration = BLANK_TOKEN.sub(" ", text).strip()
+        return (SpeechSegment(DEFAULT_VOICE, narration),)
+    if base_id == "pg014_n0002":
+        return (
+            SpeechSegment(
+                DEFAULT_VOICE,
+                "Chora mstari, au tumia programu saidizi kuoanisha idadi ya vitu na namba.",
+            ),
+        )
+    if base_id == "pg017_n0003":
+        return (
+            SpeechSegment(
+                DEFAULT_VOICE,
+                "Chora mstari, au tumia programu saidizi kuoanisha tarakimu na namba kwa maneno.",
+            ),
+        )
+    column_narration = PAGE_THIRTEEN_COLUMN_SPEECH.get(base_id)
+    if column_narration:
+        return (SpeechSegment(DEFAULT_VOICE, column_narration + "."),)
+    equation_narration = PAGE_THIRTY_NINE_EQUATION_SPEECH.get(base_id)
+    if equation_narration:
+        return (SpeechSegment(DEFAULT_VOICE, equation_narration),)
     page_narration = toc_page_spoken(text_id)
     if page_narration:
         return (SpeechSegment(DEFAULT_VOICE, page_narration),)
     stripped = BLANK_TOKEN.sub(" ", text).strip()
     if not re.search(r"[\wÀ-ÿ]", stripped):
         return (SpeechSegment("silence", ""),)
+    question_number = re.fullmatch(r"(\d+)\.", stripped)
+    if question_number:
+        return (
+            SpeechSegment(
+                DEFAULT_VOICE,
+                f"Swali la {ordinal_to_swahili(int(question_number.group(1)))}.",
+            ),
+        )
+    # Some exercise layouts combine the question number and arithmetic
+    # expression in one text item (for example, ``1. 10 - 7 = dashi``).
+    # Name that leading number as a question, just as we do for a standalone
+    # ``1.`` item.  Requiring the remainder to begin with an arithmetic
+    # expression avoids mislabelling numbered instructional steps.
+    combined_question = re.fullmatch(
+        r"(\d+)\.\s*(\d+\s*[+\-−–×÷/].*)",
+        stripped,
+        flags=re.DOTALL,
+    )
+    if combined_question:
+        transformed = spoken_swahili(combined_question.group(2))
+        return (
+            SpeechSegment(
+                DEFAULT_VOICE,
+                f"Swali la {ordinal_to_swahili(int(combined_question.group(1)))}. "
+                f"{transformed}",
+            ),
+        )
     if text_id.startswith("pg002_"):
         transformed = page_two_spoken(stripped)
         if transformed and transformed[-1] not in ".!?":
@@ -298,6 +382,30 @@ def load_jobs(requested_ids: set[str] | None = None):
     return grouped, affected
 
 
+def bump_audio_versions(requested_ids: set[str]) -> None:
+    """Give regenerated clips fresh filenames so readers cannot reuse old audio."""
+    version_pattern = re.compile(r"_v(\d+)\.mp3$")
+    for lang in LANGS:
+        mapping_path = ROOT / "content" / "i18n" / lang / "audios.json"
+        audios = json.loads(mapping_path.read_text(encoding="utf-8"))
+        changed = False
+        for text_id in requested_ids:
+            filename = audios.get(text_id)
+            if not filename:
+                continue
+            match = version_pattern.search(filename)
+            if not match:
+                raise ValueError(f"Cannot bump unversioned audio filename: {text_id} -> {filename}")
+            next_version = int(match.group(1)) + 1
+            audios[text_id] = version_pattern.sub(f"_v{next_version}.mp3", filename)
+            changed = True
+        if changed:
+            mapping_path.write_text(
+                json.dumps(audios, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
+
+
 async def main() -> None:
     try:
         import edge_tts
@@ -311,6 +419,11 @@ async def main() -> None:
     parser.add_argument("--ids", nargs="+")
     parser.add_argument("--ids-file", type=Path, help="Read one requested text ID per line")
     parser.add_argument("--matching-regex", help="Generate mapped IDs whose visible text matches this regex")
+    parser.add_argument(
+        "--bump-version",
+        action="store_true",
+        help="Increment the mapped filename version for every requested ID before generation",
+    )
     parser.add_argument("--manifest", type=Path, help="Write the transformed-ID manifest")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
@@ -331,6 +444,10 @@ async def main() -> None:
             if text_id in sw_audios and isinstance(value, str) and pattern.search(value)
         }
         requested_ids = matched if requested_ids is None else requested_ids | matched
+    if args.bump_version:
+        if requested_ids is None:
+            raise SystemExit("--bump-version requires --ids, --ids-file, or --matching-regex")
+        bump_audio_versions(requested_ids)
     jobs, affected = load_jobs(requested_ids)
     if args.manifest:
         args.manifest.parent.mkdir(parents=True, exist_ok=True)

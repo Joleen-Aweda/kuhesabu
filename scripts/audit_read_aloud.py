@@ -141,6 +141,7 @@ def main() -> None:
             "arrow_expanded": r"[→←]",
             "list_letter_expanded": r"^(?:a|b|c|d)[\).:]?$",
             "roman_numeral_expanded": r"^(?:i|ii|iii|iv|v|vi)$",
+            "standalone_question_number": r"^\s*\d+\.\s*$",
             "bracketed_digit_deduplicated": r"\([0-9]+\)",
         }
         for name, pattern in tests.items():
@@ -148,6 +149,8 @@ def main() -> None:
                 rules[name].append(text_id)
         if visible.strip() != spoken.strip():
             rules["spoken_text_differs_from_visible"].append(text_id)
+        if re.fullmatch(r"\s*\d+\.\s*", visible) and not spoken.startswith("Swali la "):
+            errors.append(f"{text_id}: question number does not begin with 'Swali la'")
 
     human_review = sorted({
         text_id for text_id, text in sw_texts.items()
