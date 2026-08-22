@@ -68,6 +68,19 @@ PAGE_THIRTY_NINE_EQUATION_SPEECH = {
     "pg039_n0019": "Sita jumlisha dashi ni sawa na tisa.",
 }
 
+PAGE_EIGHTY_THREE_PLACE_VALUE_SPEECH = {
+    "pg083_n0009": "Kumi na tisa. Tisa ipo kwenye nafasi ya dashi. Moja ipo kwenye nafasi ya dashi.",
+    "pg083_n0018": "Kumi. Sifuri ipo kwenye nafasi ya dashi. Moja ipo kwenye nafasi ya dashi.",
+    "pg083_n0027": "Thelathini na nne. Nne ipo kwenye nafasi ya dashi. Tatu ipo kwenye nafasi ya dashi.",
+    "pg083_n0036": "Ishirini na tatu. Tatu ipo kwenye nafasi ya dashi. Mbili ipo kwenye nafasi ya dashi.",
+    "pg083_n0045": "Arobaini na tano. Tano ipo kwenye nafasi ya dashi. Nne ipo kwenye nafasi ya dashi.",
+    "pg083_n0013": "Thelathini. Sifuri ipo kwenye nafasi ya dashi. Tatu ipo kwenye nafasi ya dashi.",
+    "pg083_n0022": "Kumi na sita. Sita ipo kwenye nafasi ya dashi. Moja ipo kwenye nafasi ya dashi.",
+    "pg083_n0031": "Tatu. Tatu ipo kwenye nafasi ya dashi.",
+    "pg083_n0040": "Tisa. Tisa ipo kwenye nafasi ya dashi.",
+    "pg083_n0049": "Sita. Sita ipo kwenye nafasi ya dashi.",
+}
+
 ONES = (
     "sifuri", "moja", "mbili", "tatu", "nne", "tano", "sita", "saba",
     "nane", "tisa",
@@ -137,6 +150,9 @@ def spell_english_token(token: str) -> str:
     if stripped.upper() == "TET":
         # This acronym is conventionally pronounced as one Swahili word.
         return "teti"
+    if stripped.upper() == "SQA":
+        # Use explicit English letter names so Q cannot be mistaken for T.
+        return "es, kyu, ei"
     if stripped.upper().startswith("ISBN"):
         digits = re.sub(r"\D", "", stripped.split(":", 1)[-1])
         return "I S B N, " + ", ".join(ONES[int(digit)] for digit in digits)
@@ -292,6 +308,37 @@ def speech_segments(text_id: str, text: str) -> tuple[SpeechSegment, ...]:
                 "Chora mstari, au tumia programu saidizi kuoanisha tarakimu na namba kwa maneno.",
             ),
         )
+    if base_id in {"pg018_n0003", "pg065_n0004", "pg065_n0008", "pg066_n0003"}:
+        return (
+            SpeechSegment(
+                DEFAULT_VOICE,
+                "Soma au Tambua namba zifuatazo kwa sauti.",
+            ),
+        )
+    if base_id == "pg040_n0009":
+        return (
+            SpeechSegment(
+                DEFAULT_VOICE,
+                "Soma au Tambua swali linaloonekana kwenye skirini na ulielewe.",
+            ),
+        )
+    if base_id in {"pg041_gp002_tx002", "pg041_n0003"}:
+        return (
+            SpeechSegment(
+                DEFAULT_VOICE,
+                "Chora au Andika vitu vinavyobaki baada ya kupunguza.",
+            ),
+        )
+    if base_id == "pg051_n0021":
+        return (
+            SpeechSegment(
+                DEFAULT_VOICE,
+                "Hatua ya pili. Soma au Tambua swali linaloonekana kwenye skirini na ulielewe.",
+            ),
+        )
+    place_value_narration = PAGE_EIGHTY_THREE_PLACE_VALUE_SPEECH.get(base_id)
+    if place_value_narration:
+        return (SpeechSegment(DEFAULT_VOICE, place_value_narration),)
     column_narration = PAGE_THIRTEEN_COLUMN_SPEECH.get(base_id)
     if column_narration:
         return (SpeechSegment(DEFAULT_VOICE, column_narration + "."),)

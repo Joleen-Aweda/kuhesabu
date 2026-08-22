@@ -1660,7 +1660,7 @@
       "kind": "text",
       "id": "pg014_im022",
       "tag": "p",
-      "text": "Jedwali la kuoanisha makundi ya machungwa na namba. Mfano unaunganisha chungwa moja na namba moja. Makundi mengine yana machungwa saba, manne, mawili, sita, matano, matatu, tisa na nane."
+      "text": "Jedwali la kuoanisha makundi ya machungwa na namba. Mfano chungwa moja kwenye safu ya kwanza imeoanishwa na namba moja ya numerali kwenye safu ya pili. Safu ya kwanza ina machungwa saba, machungwa manne, machungwa mawili, machungwa sita, machungwa matano, machungwa matatu, machungwa tisa, na machungwa nane. Safu ya pili ina namba tatu, nane, mbili, saba, nne, sita, tisa, na tano."
     },
     {
       "kind": "blank",
@@ -1883,7 +1883,7 @@
       "kind": "text",
       "id": "pg016_n0009",
       "tag": "p",
-      "text": "Soma namba zifuatazo kwa sauti."
+      "text": "Soma / Tambua namba zifuatazo kwa sauti."
     },
     {
       "kind": "text",
@@ -3727,7 +3727,7 @@
       "kind": "image",
       "id": "pg024_im007",
       "tag": "p",
-      "text": "Picha ya matunda ina nyanya sita, mapera tisa, maembe saba, vishada vinane vya zabibu, mananasi manne, matikitimaji matano, mikungu minne ya ndizi, fenesi tatu na papai moja."
+      "text": "Picha ya matunda ina nyanya sita, mapera tisa, maembe saba, vishada vinane vya zabibu, mananasi manne, matikitimaji matano, ndizi nne, fenesi tatu na papai moja."
     },
     {
       "kind": "table",
@@ -3838,7 +3838,7 @@
                 "kind": "image",
                 "id": "pg024_im004",
                 "tag": "p",
-                "text": "Alama ya mkungu wa ndizi. Kwenye picha kubwa kuna mikungu minne ya ndizi."
+                "text": "Alama ya ndizi. Kwenye picha kubwa kuna ndizi nne."
               }
             ],
             "blanks": 0
@@ -6745,7 +6745,7 @@
       "kind": "text",
       "id": "pg039_n0026",
       "tag": "p",
-      "text": "2 + 3 ="
+      "text": "2 + 3 = dashi"
     },
     {
       "kind": "text",
@@ -6801,7 +6801,7 @@
       "kind": "text",
       "id": "pg040_n0009",
       "tag": "p",
-      "text": "Soma swali linaloonekana kwenye skirini na ulielewe."
+      "text": "Soma / Tambua swali linaloonekana kwenye skirini na ulielewe."
     },
     {
       "kind": "text",
@@ -6899,7 +6899,7 @@
       "kind": "text",
       "id": "pg041_gp002_tx002",
       "tag": "p",
-      "text": "Chora vitu vinavyobaki baada ya kupunguza."
+      "text": "Chora / Andika vitu vinavyobaki baada ya kupunguza."
     },
     {
       "kind": "text",
@@ -8529,7 +8529,7 @@
       "kind": "text",
       "id": "pg051_n0021",
       "tag": "p",
-      "text": "2. Soma swali linaloonekana kwenye skirini na ulielewe."
+      "text": "2. Soma / Tambua swali linaloonekana kwenye skirini na ulielewe."
     },
     {
       "kind": "text",
@@ -14032,7 +14032,7 @@
       "kind": "text",
       "id": "pg065_n0004",
       "tag": "p",
-      "text": "Soma namba zifuatazo kwa sauti."
+      "text": "Soma / Tambua namba zifuatazo kwa sauti."
     },
     {
       "kind": "table",
@@ -14762,7 +14762,7 @@
       "kind": "text",
       "id": "pg065_n0008",
       "tag": "p",
-      "text": "Soma namba zifuatazo kwa sauti."
+      "text": "Soma / Tambua namba zifuatazo kwa sauti."
     },
     {
       "kind": "table",
@@ -16074,7 +16074,7 @@
       "kind": "text",
       "id": "pg066_n0003",
       "tag": "p",
-      "text": "Soma namba zifuatazo kwa sauti."
+      "text": "Soma / Tambua namba zifuatazo kwa sauti."
     },
     {
       "kind": "table",
