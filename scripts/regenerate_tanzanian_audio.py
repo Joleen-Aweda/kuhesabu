@@ -120,6 +120,8 @@ SPECIAL_ENGLISH = re.compile(
 class SpeechSegment:
     voice: str
     text: str
+    silence_seconds: float = 0.35
+    trim_edge_silence: bool = False
 
 
 def number_to_swahili(value: int) -> str:
@@ -288,6 +290,30 @@ def toc_page_spoken(text_id: str) -> str | None:
 def speech_segments(text_id: str, text: str) -> tuple[SpeechSegment, ...]:
     """Transform content into speech segments that all use Daudi."""
     base_id = text_id[:-10] if text_id.endswith("_easy_read") else text_id
+    if base_id == "pg005_n0016":
+        return (
+            SpeechSegment(DEFAULT_VOICE, "Daktari.", trim_edge_silence=True),
+            SpeechSegment("silence", "", 1.0),
+            SpeechSegment(DEFAULT_VOICE, "Aneti.", trim_edge_silence=True),
+            SpeechSegment("silence", "", 1.0),
+            SpeechSegment(DEFAULT_VOICE, "A.", trim_edge_silence=True),
+            SpeechSegment("silence", "", 1.0),
+            SpeechSegment(DEFAULT_VOICE, "Komba.", trim_edge_silence=True),
+        )
+    if base_id == "pg005_im001":
+        return (
+            SpeechSegment(DEFAULT_VOICE, "Saini ya Daktari.", trim_edge_silence=True),
+            SpeechSegment("silence", "", 1.0),
+            SpeechSegment(DEFAULT_VOICE, "Aneti.", trim_edge_silence=True),
+            SpeechSegment("silence", "", 1.0),
+            SpeechSegment(DEFAULT_VOICE, "A.", trim_edge_silence=True),
+            SpeechSegment("silence", "", 1.0),
+            SpeechSegment(
+                DEFAULT_VOICE,
+                "Komba. Mkurugenzi Mkuu wa Taasisi ya Elimu Tanzania.",
+                trim_edge_silence=True,
+            ),
+        )
     if base_id == "pg129_im018_seg009_v1_crop_v1_crop1":
         # In this lettered shape exercise, lowercase "i" is an alphabet
         # label.  Bypass the general Roman-numeral conversion, which would
@@ -308,11 +334,25 @@ def speech_segments(text_id: str, text: str) -> tuple[SpeechSegment, ...]:
                 "Chora mstari, au tumia programu saidizi kuoanisha tarakimu na namba kwa maneno.",
             ),
         )
+    if base_id == "pg025_n0014":
+        return (
+            SpeechSegment(
+                DEFAULT_VOICE,
+                "Soma namba zifuatazo kwa sauti au kwa lugha ya alama.",
+            ),
+        )
     if base_id in {"pg018_n0003", "pg065_n0004", "pg065_n0008", "pg066_n0003"}:
         return (
             SpeechSegment(
                 DEFAULT_VOICE,
                 "Soma au Tambua namba zifuatazo kwa sauti.",
+            ),
+        )
+    if base_id == "pg025_n0014":
+        return (
+            SpeechSegment(
+                DEFAULT_VOICE,
+                "Soma namba zifuatazo kwa sauti au kwa lugha ya alama.",
             ),
         )
     if base_id == "pg040_n0009":
@@ -513,25 +553,50 @@ async def main() -> None:
         if segment.voice == "silence":
             process = await asyncio.create_subprocess_exec(
                 "ffmpeg", "-loglevel", "error", "-f", "lavfi", "-i",
-                "anullsrc=r=24000:cl=mono", "-t", "0.35", "-q:a", "9",
+                "anullsrc=r=24000:cl=mono", "-t", str(segment.silence_seconds), "-q:a", "9",
                 "-acodec", "libmp3lame", str(destination),
             )
             if await process.wait() != 0:
                 raise RuntimeError("ffmpeg failed while creating a silent answer-field clip")
             return
         voice = args.voice
+        speech_destination = (
+            destination.with_name(f"{destination.stem}-untrimmed{destination.suffix}")
+            if segment.trim_edge_silence
+            else destination
+        )
         error: Exception | None = None
         for attempt in range(4):
             try:
                 await asyncio.wait_for(
-                    edge_tts.Communicate(segment.text, voice, rate=args.rate).save(str(destination)),
+                    edge_tts.Communicate(segment.text, voice, rate=args.rate).save(str(speech_destination)),
                     timeout=30,
                 )
-                return
+                break
             except Exception as exc:
                 error = exc
                 await asyncio.sleep(1.5 * (attempt + 1))
-        raise RuntimeError(f"TTS failed after retries: {segment.text[:80]!r}") from error
+        else:
+            raise RuntimeError(f"TTS failed after retries: {segment.text[:80]!r}") from error
+        if not segment.trim_edge_silence:
+            return
+        # Edge TTS pads every independently generated phrase. Trim only that
+        # outer padding so the explicit one-second name pauses remain one
+        # second instead of stacking with the service's automatic silence.
+        process = await asyncio.create_subprocess_exec(
+            "ffmpeg", "-loglevel", "error", "-i", str(speech_destination),
+            "-af",
+            (
+                "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.02,"
+                "areverse,"
+                "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.02,"
+                "areverse"
+            ),
+            "-q:a", "4", str(destination),
+        )
+        if await process.wait() != 0:
+            raise RuntimeError(f"ffmpeg failed while trimming speech: {segment.text[:80]!r}")
+        speech_destination.unlink(missing_ok=True)
 
     async def generate(segments: tuple[SpeechSegment, ...], destinations: list[Path]) -> None:
         digest = hashlib.sha256(repr(segments).encode("utf-8")).hexdigest()

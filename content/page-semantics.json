@@ -614,7 +614,7 @@
       "kind": "image",
       "id": "pg006_im001",
       "tag": "p",
-      "text": "Msimbo wa QR wa kufungua maktaba mtandao ya Taasisi ya Elimu Tanzania."
+      "text": "Msimbo wa Taasisi ya Elimu Tanzania."
     },
     {
       "kind": "text",
@@ -3990,7 +3990,7 @@
       "kind": "text",
       "id": "pg025_n0014",
       "tag": "p",
-      "text": "Soma namba zifuatazo kwa sauti."
+      "text": "Soma namba zifuatazo kwa sauti/kwa lugha ya alama."
     },
     {
       "kind": "table",
@@ -4401,7 +4401,7 @@
       "kind": "text",
       "id": "pg026_im010_seg006_v1",
       "tag": "p",
-      "text": "Vijiti vitano vya bluu ndani ya duara."
+      "text": "Vijiti sita vya bluu ndani ya duara."
     },
     {
       "kind": "text",
@@ -5774,12 +5774,6 @@
       "id": "pg035_n0043",
       "tag": "p",
       "text": "Namba inayokosekana ikijazwa hukamilisha jumla iliyopo."
-    },
-    {
-      "kind": "text",
-      "id": "pg035_n0041",
-      "tag": "p",
-      "text": "Kuandika namba inayokosekana"
     },
     {
       "kind": "text",
