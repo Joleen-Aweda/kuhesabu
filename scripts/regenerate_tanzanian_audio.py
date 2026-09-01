@@ -21,9 +21,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_VOICE = "sw-TZ-DaudiNeural"
-# Retained as an import-compatible alias for older audit tooling. Every spoken
-# segment now uses Daudi, including acronyms, URLs, and email addresses.
-ENGLISH_VOICE = DEFAULT_VOICE
+# ISBN is intentionally read with an English voice. Other mixed-language
+# content remains in Daudi unless a specific correction requires otherwise.
+ENGLISH_VOICE = "en-US-GuyNeural"
 DEFAULT_RATE = "-5%"
 LANGS = ("sw", "sw-TZ")
 
@@ -156,8 +156,7 @@ def spell_english_token(token: str) -> str:
         # Use explicit English letter names so Q cannot be mistaken for T.
         return "es, kyu, ei"
     if stripped.upper().startswith("ISBN"):
-        digits = re.sub(r"\D", "", stripped.split(":", 1)[-1])
-        return "I S B N, " + ", ".join(ONES[int(digit)] for digit in digits)
+        return "I S B N"
     if re.match(r"https?://", stripped, re.I):
         value = re.sub(r"^https", "H T T P S", stripped, flags=re.I)
         value = re.sub(r"^http", "H T T P", value, flags=re.I)
@@ -277,6 +276,12 @@ def page_two_spoken(text: str) -> str:
     return re.sub(r"\s+", " ", " ".join(parts)).strip()
 
 
+def isbn_digits_swahili(text: str) -> str:
+    """Read only the ISBN digits in Swahili; printed dashes stay silent."""
+    digits = re.sub(r"\D", "", text.split(":", 1)[-1])
+    return ", ".join(ONES[int(digit)] for digit in digits) + "."
+
+
 def toc_page_spoken(text_id: str) -> str | None:
     base_id = text_id[:-10] if text_id.endswith("_easy_read") else text_id
     page_number = TOC_PAGE_NUMBERS.get(base_id)
@@ -290,6 +295,45 @@ def toc_page_spoken(text_id: str) -> str | None:
 def speech_segments(text_id: str, text: str) -> tuple[SpeechSegment, ...]:
     """Transform content into speech segments that all use Daudi."""
     base_id = text_id[:-10] if text_id.endswith("_easy_read") else text_id
+    if base_id == "pg002_n0007":
+        return (
+            SpeechSegment(
+                DEFAULT_VOICE,
+                "Baruapepe. director, nukta, general, alama ya at, T I E, nukta, G O, nukta, T Z.",
+            ),
+        )
+    if base_id == "pg002_n0004":
+        return (
+            SpeechSegment(ENGLISH_VOICE, "I S B N."),
+            SpeechSegment(DEFAULT_VOICE, isbn_digits_swahili(text)),
+        )
+    if base_id == "pg002_n0008":
+        return (
+            SpeechSegment(
+                DEFAULT_VOICE,
+                "Tovuti. W W W, nukta, T I E, nukta, G O, nukta, T Z.",
+            ),
+        )
+    if base_id == "pg005_n0006":
+        return (
+            SpeechSegment(
+                DEFAULT_VOICE,
+                "Bwana Luckford D. Hamsini. Bibi Skolastika A. Kulanga. "
+                "Bwana Mussa J. Swila. Bwana Praizy R. Emanuel. "
+                "Bibi Eveline K. Rwezahula.",
+            ),
+        )
+    if base_id == "pg005_n0008":
+        return (
+            SpeechSegment(
+                DEFAULT_VOICE,
+                "Daktari Makungu S. Mwanzalima, na Bibi Theresia W. Magesa.",
+            ),
+        )
+    if base_id == "pg005_n0010":
+        return (SpeechSegment(DEFAULT_VOICE, "Bibi Pamela S. Makusi."),)
+    if base_id == "pg005_n0012":
+        return (SpeechSegment(DEFAULT_VOICE, "Bwana Luckford D. Hamsini."),)
     if base_id == "pg005_n0016":
         return (
             SpeechSegment(DEFAULT_VOICE, "Daktari.", trim_edge_silence=True),
@@ -434,7 +478,11 @@ def speech_segments(text_id: str, text: str) -> tuple[SpeechSegment, ...]:
         if before and re.search(r"[\wÀ-ÿ]", before):
             segments.append(SpeechSegment(DEFAULT_VOICE, before))
         token = match.group(0)
-        segments.append(SpeechSegment(DEFAULT_VOICE, spell_english_token(token)))
+        if token.strip().upper().startswith("ISBN"):
+            segments.append(SpeechSegment(ENGLISH_VOICE, "I S B N."))
+            segments.append(SpeechSegment(DEFAULT_VOICE, isbn_digits_swahili(token)))
+        else:
+            segments.append(SpeechSegment(DEFAULT_VOICE, spell_english_token(token)))
         cursor = match.end()
     tail = spoken_swahili(stripped[cursor:])
     if tail and re.search(r"[\wÀ-ÿ]", tail):

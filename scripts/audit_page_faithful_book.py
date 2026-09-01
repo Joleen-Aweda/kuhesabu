@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit the 132-page PDF-faithful ADT and its accessible reading layer."""
+"""Audit the original cover plus 132 PDF-faithful textbook pages."""
 
 from __future__ import annotations
 
@@ -27,8 +27,25 @@ def normalized(value: str) -> str:
 def main() -> None:
     errors: list[str] = []
     pages = load_json(ROOT / "content/pages.json")
-    if len(pages) != 132:
-        errors.append(f"pages.json has {len(pages)} entries instead of 132")
+    if len(pages) != 133:
+        errors.append(f"pages.json has {len(pages)} entries instead of 133")
+    if not pages or pages[0] != {"section_id": "cover_sec001", "href": "index.html"}:
+        errors.append("pages.json does not begin with the original front cover")
+
+    cover_path = ROOT / "index.html"
+    if not cover_path.is_file():
+        errors.append("missing original front-cover page: index.html")
+    else:
+        cover_document = html.fromstring(cover_path.read_text(encoding="utf-8"))
+        if cover_document.xpath('//meta[@name="title-id"]/@content') != ["cover_sec001"]:
+            errors.append("index.html: incorrect cover title-id")
+        if cover_document.xpath('//meta[@name="page-section-id"]/@content') != ["1"]:
+            errors.append("index.html: incorrect cover page-section-id")
+        cover_image = cover_document.xpath(
+            '//section[@data-section-id="cover_sec001"]//img[@src="images/book-cover-front.png"]'
+        )
+        if len(cover_image) != 1 or not (ROOT / "images/book-cover-front.png").is_file():
+            errors.append("index.html: missing original front-cover image")
 
     catalogs = {}
     for language in LANGS:
@@ -43,12 +60,12 @@ def main() -> None:
     total_figures = 0
     total_tables = 0
     total_blanks = 0
-    hrefs: set[str] = set()
+    hrefs: set[str] = {"index.html"}
     for page_number in range(1, 133):
-        expected_href = "index.html" if page_number == 1 else f"pg{page_number:03d}_sec001.html"
+        expected_href = f"pg{page_number:03d}_sec001.html"
         expected_section = f"pg{page_number:03d}_sec001"
-        if page_number <= len(pages):
-            entry = pages[page_number - 1]
+        if page_number < len(pages):
+            entry = pages[page_number]
             if entry != {
                 "section_id": expected_section,
                 "href": expected_href,
@@ -68,7 +85,7 @@ def main() -> None:
         section_meta = document.xpath('//meta[@name="page-section-id"]/@content')
         if title_meta != [expected_section]:
             errors.append(f"{expected_href}: incorrect title-id {title_meta}")
-        if section_meta != [str(page_number)]:
+        if section_meta != [str(page_number + 1)]:
             errors.append(f"{expected_href}: incorrect page-section-id {section_meta}")
 
         article = document.xpath(
@@ -161,14 +178,14 @@ def main() -> None:
     start = offline_source.index(OFFLINE_START) + len(OFFLINE_START)
     end = offline_source.index(OFFLINE_END, start)
     inline = json.loads(offline_source[start:end])
-    if len(inline.get("./content/pages.json", [])) != 132:
-        errors.append("offline preloader does not contain the 132-page manifest")
+    if len(inline.get("./content/pages.json", [])) != 133:
+        errors.append("offline preloader does not contain the cover plus 132-page manifest")
 
     if errors:
         print("\n".join(errors))
         raise SystemExit(1)
     print(
-        "PASS: 132 PDF-faithful pages; "
+        "PASS: original front cover plus 132 PDF-faithful pages; "
         f"{total_ids} spoken content IDs; {total_figures} unique image descriptions; "
         f"{total_tables} accessible tables; {total_blanks} static answer blanks; "
         "audio present in sw and sw-TZ; no editable exercise controls."

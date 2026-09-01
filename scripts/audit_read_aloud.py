@@ -11,7 +11,15 @@ from collections import Counter, defaultdict
 from html.parser import HTMLParser
 from pathlib import Path
 
-from regenerate_tanzanian_audio import DEFAULT_VOICE, LANGS, ROOT, speech_segments
+from regenerate_tanzanian_audio import DEFAULT_VOICE, ENGLISH_VOICE, LANGS, ROOT, speech_segments
+
+
+ENGLISH_ISBN_IDS = {
+    "pg001_im001",
+    "pg001_n0013",
+    "pg001_n0013_easy_read",
+    "pg002_n0004",
+}
 
 
 class BundleParser(HTMLParser):
@@ -125,9 +133,12 @@ def main() -> None:
         visible = sw_texts[text_id]
         segments = speech_segments(text_id, visible)
         spoken = " | ".join(segment.text for segment in segments)
+        allowed_voices = {DEFAULT_VOICE, "silence"}
+        if text_id in ENGLISH_ISBN_IDS:
+            allowed_voices.add(ENGLISH_VOICE)
         unexpected_voices = {
             segment.voice for segment in segments
-            if segment.voice not in {DEFAULT_VOICE, "silence"}
+            if segment.voice not in allowed_voices
         }
         if unexpected_voices:
             errors.append(

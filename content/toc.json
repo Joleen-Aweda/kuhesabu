@@ -1,7 +1,14 @@
 [
   {
-    "section_id": "pg001_sec001",
+    "section_id": "cover_sec001",
     "href": "index.html",
+    "title": "Jalada",
+    "chapter_id": "cover_n0000",
+    "level": 1
+  },
+  {
+    "section_id": "pg001_sec001",
+    "href": "pg001_sec001.html",
     "title": "Kuhesabu",
     "chapter_id": "pg001_n0002",
     "level": 1
