@@ -1,10 +1,10 @@
 (function () {
   "use strict";
 
-  function getPageNumber() {
-    var meta = document.querySelector('meta[name="page-section-id"]');
-    var pageNumber = meta ? Number(meta.content) : 0;
-    return Number.isInteger(pageNumber) && pageNumber > 0 ? pageNumber : 0;
+  function getBookPageNumber() {
+    var meta = document.querySelector('meta[name="title-id"]');
+    var match = meta && String(meta.content).match(/^pg(\d{3})_sec/);
+    return match ? Number(match[1]) : 0;
   }
 
   function attachVideo() {
@@ -14,13 +14,29 @@
     if (!handle) return;
 
     var panel = handle.parentElement;
-    if (!panel || panel.querySelector("video")) return;
+    if (!panel) return;
 
-    var pageNumber = getPageNumber();
-    if (!pageNumber) return;
+    var pageNumber = getBookPageNumber();
+    var existingVideo = panel.querySelector("video");
+    if (!pageNumber) {
+      if (existingVideo) existingVideo.remove();
+      return;
+    }
+
+    var desiredSrc = "./content/i18n/sw-TZ/video/page_" + pageNumber + ".mp4";
+    if (existingVideo) {
+      if (!existingVideo.getAttribute("src")?.endsWith("/video/page_" + pageNumber + ".mp4") &&
+          existingVideo.getAttribute("src") !== desiredSrc) {
+        existingVideo.src = desiredSrc;
+        existingVideo.setAttribute("aria-label", "Lugha ya ishara, ukurasa " + pageNumber);
+        existingVideo.load();
+        existingVideo.play().catch(function () {});
+      }
+      return;
+    }
 
     var video = document.createElement("video");
-    video.src = "./content/i18n/sw-TZ/video/page_" + pageNumber + ".mp4";
+    video.src = desiredSrc;
     video.controls = true;
     video.autoplay = true;
     video.loop = true;
