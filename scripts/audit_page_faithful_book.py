@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit the original cover plus 132 PDF-faithful textbook pages."""
+"""Audit both original covers plus 132 PDF-faithful textbook pages."""
 
 from __future__ import annotations
 
@@ -27,10 +27,12 @@ def normalized(value: str) -> str:
 def main() -> None:
     errors: list[str] = []
     pages = load_json(ROOT / "content/pages.json")
-    if len(pages) != 133:
-        errors.append(f"pages.json has {len(pages)} entries instead of 133")
+    if len(pages) != 134:
+        errors.append(f"pages.json has {len(pages)} entries instead of 134")
     if not pages or pages[0] != {"section_id": "cover_sec001", "href": "index.html"}:
         errors.append("pages.json does not begin with the original front cover")
+    if not pages or pages[-1] != {"section_id": "back_cover_sec001", "href": "back-cover.html"}:
+        errors.append("pages.json does not end with the original back cover")
 
     cover_path = ROOT / "index.html"
     if not cover_path.is_file():
@@ -47,6 +49,21 @@ def main() -> None:
         if len(cover_image) != 1 or not (ROOT / "images/book-cover-front.png").is_file():
             errors.append("index.html: missing original front-cover image")
 
+    back_cover_path = ROOT / "back-cover.html"
+    if not back_cover_path.is_file():
+        errors.append("missing original back-cover page: back-cover.html")
+    else:
+        back_cover_document = html.fromstring(back_cover_path.read_text(encoding="utf-8"))
+        if back_cover_document.xpath('//meta[@name="title-id"]/@content') != ["back_cover_sec001"]:
+            errors.append("back-cover.html: incorrect back-cover title-id")
+        if back_cover_document.xpath('//meta[@name="page-section-id"]/@content') != ["134"]:
+            errors.append("back-cover.html: incorrect back-cover page-section-id")
+        back_cover_image = back_cover_document.xpath(
+            '//section[@data-section-id="back_cover_sec001"]//img[@src="images/book-cover-back.png"]'
+        )
+        if len(back_cover_image) != 1 or not (ROOT / "images/book-cover-back.png").is_file():
+            errors.append("back-cover.html: missing original back-cover image")
+
     catalogs = {}
     for language in LANGS:
         base = ROOT / "content/i18n" / language
@@ -60,7 +77,7 @@ def main() -> None:
     total_figures = 0
     total_tables = 0
     total_blanks = 0
-    hrefs: set[str] = {"index.html"}
+    hrefs: set[str] = {"index.html", "back-cover.html"}
     for page_number in range(1, 133):
         expected_href = f"pg{page_number:03d}_sec001.html"
         expected_section = f"pg{page_number:03d}_sec001"
@@ -178,14 +195,14 @@ def main() -> None:
     start = offline_source.index(OFFLINE_START) + len(OFFLINE_START)
     end = offline_source.index(OFFLINE_END, start)
     inline = json.loads(offline_source[start:end])
-    if len(inline.get("./content/pages.json", [])) != 133:
-        errors.append("offline preloader does not contain the cover plus 132-page manifest")
+    if len(inline.get("./content/pages.json", [])) != 134:
+        errors.append("offline preloader does not contain both covers plus 132-page manifest")
 
     if errors:
         print("\n".join(errors))
         raise SystemExit(1)
     print(
-        "PASS: original front cover plus 132 PDF-faithful pages; "
+        "PASS: original front and back covers plus 132 PDF-faithful pages; "
         f"{total_ids} spoken content IDs; {total_figures} unique image descriptions; "
         f"{total_tables} accessible tables; {total_blanks} static answer blanks; "
         "audio present in sw and sw-TZ; no editable exercise controls."

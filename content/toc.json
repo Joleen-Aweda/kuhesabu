@@ -677,5 +677,12 @@
     "title": "Jaribio la 3",
     "chapter_id": "pg132_n0002",
     "level": 2
+  },
+  {
+    "section_id": "back_cover_sec001",
+    "href": "back-cover.html",
+    "title": "Jalada la nyuma",
+    "chapter_id": "backcover_n0000",
+    "level": 1
   }
 ]

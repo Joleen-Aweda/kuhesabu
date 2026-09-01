@@ -15,6 +15,10 @@ from regenerate_tanzanian_audio import DEFAULT_VOICE, ENGLISH_VOICE, LANGS, ROOT
 
 
 ENGLISH_ISBN_IDS = {
+    "backcover_im001",
+    "backcover_im001_easy_read",
+    "backcover_n0008",
+    "backcover_n0008_easy_read",
     "pg001_im001",
     "pg001_n0013",
     "pg001_n0013_easy_read",
@@ -88,7 +92,12 @@ def main() -> None:
         if base_id not in sw_audios:
             errors.append(f"{easy_id}: easy-read mapping has no normal mapping")
 
-    html_files = [ROOT / "index.html", *sorted(ROOT.glob("pg*.html")), *sorted(ROOT.glob("qz*.html"))]
+    html_files = [
+        ROOT / "index.html",
+        ROOT / "back-cover.html",
+        *sorted(ROOT.glob("pg*.html")),
+        *sorted(ROOT.glob("qz*.html")),
+    ]
     image_instances = 0
     duplicate_image_instances = 0
     html_text_ids: set[str] = set()
