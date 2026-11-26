@@ -10,34 +10,83 @@ body { min-width: 0; }
 #content :where(button, input, select, textarea, [role="button"]) { touch-action: manipulation; }
 
 @media (max-width: 1200px) {
-  body { padding-bottom: calc(12rem + env(safe-area-inset-bottom)) !important; }
-  /* The runtime renders three groups: menu, page navigation, and reader tools. */
+  body { padding-bottom: calc(4.75rem + env(safe-area-inset-bottom)) !important; }
+  /* Keep menu, page navigation and reader tools in one horizontal bar on tablets. */
   body [role="group"][class*="fixed"][class*="z-[55]"] {
-    display: grid !important;
-    grid-template-columns: minmax(0, 1fr);
-    gap: .15rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: .25rem !important;
     width: 100% !important;
     max-width: 100vw !important;
-    padding: .35rem max(.4rem, env(safe-area-inset-right)) calc(.35rem + env(safe-area-inset-bottom)) max(.4rem, env(safe-area-inset-left)) !important;
+    min-height: 3.75rem;
+    padding: .5rem max(.5rem, env(safe-area-inset-right)) calc(.5rem + env(safe-area-inset-bottom)) max(.5rem, env(safe-area-inset-left)) !important;
     bottom: 0 !important;
     border-radius: 0 !important;
     box-sizing: border-box;
   }
-  body [role="group"][class*="fixed"][class*="z-[55]"] > div { min-width: 0 !important; width: 100%; }
-  body [role="group"][class*="fixed"][class*="z-[55]"] > .order-1 { grid-column: 1; grid-row: 1; }
-  body [role="group"][class*="fixed"][class*="z-[55]"] > .order-2 { grid-column: 1; grid-row: 2; display: flex; justify-content: center; }
-  body [role="group"][class*="fixed"][class*="z-[55]"] > .order-3 { grid-column: 1; grid-row: 3; justify-content: center; }
-  body [role="group"][class*="fixed"][class*="z-[55]"] [class*="min-w-64"] { min-width: 0 !important; }
-  body [role="group"][class*="fixed"][class*="z-[55]"] button { flex-shrink: 0; min-width: 40px; min-height: 44px; }
+  body [role="group"][class*="fixed"][class*="z-[55]"] > div { min-width: 0 !important; }
   body [role="group"][class*="fixed"][class*="z-[55]"] > .order-1,
-  body [role="group"][class*="fixed"][class*="z-[55]"] > .order-3 { overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
-  body [role="group"][class*="fixed"][class*="z-[55]"] > .order-1::-webkit-scrollbar,
+  body [role="group"][class*="fixed"][class*="z-[55]"] > .order-3 { flex: 1 1 0 !important; }
+  body [role="group"][class*="fixed"][class*="z-[55]"] > .order-2 { flex: 0 0 auto !important; }
+  body [role="group"][class*="fixed"][class*="z-[55]"] > .order-1 > button {
+    width: 100%;
+    min-width: 0 !important;
+    max-width: 16rem !important;
+  }
+  body [role="group"][class*="fixed"][class*="z-[55]"] > .order-3 {
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
   body [role="group"][class*="fixed"][class*="z-[55]"] > .order-3::-webkit-scrollbar { display: none; }
+  body [role="group"][class*="fixed"][class*="z-[55]"] button { flex-shrink: 0; min-width: 40px; min-height: 44px; }
   body [class*="fixed"][class*="z-[56]"] { bottom: calc(10rem + env(safe-area-inset-bottom)) !important; max-width: calc(100vw - 1rem); }
 }
 @media (max-width: 640px) {
   body { align-items: flex-start !important; }
   #content.container { padding-inline: 1rem !important; padding-top: 1rem !important; }
   #content :where(button, input, select, textarea, [role="button"]) { min-height: 44px; }
+  body [role="group"][class*="fixed"][class*="z-[55]"] {
+    display: grid !important;
+    grid-template-columns: 3.25rem minmax(0, 1fr) 3.25rem;
+    min-height: 3.75rem;
+  }
+  body [role="group"][class*="fixed"][class*="z-[55]"] > .order-1 {
+    grid-column: 1;
+    width: 3.25rem;
+  }
+  body [role="group"][class*="fixed"][class*="z-[55]"] > .order-1 > button {
+    width: 2.75rem;
+    min-width: 2.75rem !important;
+    padding-inline: 0 !important;
+    justify-content: center !important;
+  }
+  body [role="group"][class*="fixed"][class*="z-[55]"] > .order-1 span { display: none !important; }
+  body [role="group"][class*="fixed"][class*="z-[55]"] > .order-2 {
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+  }
+  body [role="group"][class*="fixed"][class*="z-[55]"] > .order-3 {
+    grid-column: 3;
+    width: 3.25rem;
+    justify-content: flex-end;
+    padding-left: 0 !important;
+    overflow: visible;
+  }
+  body [role="group"][class*="fixed"][class*="z-[55]"] > .order-3 > button { display: none !important; }
+  body [role="group"][class*="fixed"][class*="z-[55]"] > .order-3 > button:last-child {
+    display: flex !important;
+    width: 2.75rem;
+    min-width: 2.75rem !important;
+  }
+  body [role="group"][class*="fixed"][class*="z-[55]"] > .order-3 > button:last-child svg { display: none !important; }
+  body [role="group"][class*="fixed"][class*="z-[55]"] > .order-3 > button:last-child::before {
+    content: "";
+    width: 1.5rem;
+    height: 1.5rem;
+    background: center / contain no-repeat url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23d4d4d4' stroke-width='2.5'%3E%3Crect x='3' y='3' width='7' height='7' rx='1'/%3E%3Crect x='14' y='3' width='7' height='7' rx='1'/%3E%3Crect x='3' y='14' width='7' height='7' rx='1'/%3E%3Crect x='14' y='14' width='7' height='7' rx='1'/%3E%3C/svg%3E");
+  }
 }
 @supports not (overflow: clip) { html, body { overflow-x: hidden; } }
